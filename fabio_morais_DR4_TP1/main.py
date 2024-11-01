@@ -57,17 +57,20 @@ print(perfis_validos)
 
 # Links usados como reforço: https://awari.com.br/python-a-leitura-de-arquivos-txt/ | https://awari.com.br/arquivo-txt-python-aprenda-a-ler-e-manipular-arquivos-de-texto-com-python/
 
-with open("base_inicial.txt", "r", encoding="utf-8") as base_inicial:
+# Quando fui testar a 6° questão estava dando erro de diretorio ([Errno 2] No such file or directory: 'base_inicial.txt'), só consegui quando coloquei o diretorio completo.
+with open(r"C:\python-infnet\python-dados-4t24\repositorio-python-para-dados-4t24-prof-dacio-souza-fabiolmorais\fabio_morais_DR4_TP1\base_inicial.txt", "r", encoding="utf-8") as base_inicial:
   leitor = base_inicial.readlines()[1:]
 
   for linha in leitor:
     dados = linha.strip().split('?')
 
-    nome = dados[0]
-    idade = int(dados[1])
-    cidade = dados[2]
-    estado = dados[3]
-    amigos = dados[4:]
+    # Modificando o código para definir um padrão para lidar com dados ausentes
+
+    nome = dados[0] if dados[0] else None
+    idade = int(dados[1]) if dados[1].isdigit() else None
+    cidade = dados[2] if dados[2] else None
+    estado = dados[3] if dados[3] else None
+    amigos = dados[4:] if len(dados) > 4 else []
 
     if nome and cidade:
       perfil = {
@@ -80,3 +83,30 @@ with open("base_inicial.txt", "r", encoding="utf-8") as base_inicial:
 
 print("=============== Perfis válidos após 4° questão =======================")
 print(perfis_validos)
+
+# 6 - Com os dados carregados no exercício anterior, adicione os usuários dos exercícios 1 e 2, definindo um padrão para lidar com os dados ausentes e salve estas informações em um arquivo "rede_INFNET.txt".
+
+for perfil in perfis:
+  perfil['amigos'] = []
+
+print("")
+print("=============== Perfis 6° questão =======================")
+print(perfis)
+print("")
+
+perfis_validos.extend(perfis)
+
+print("=============== Perfis válidos 6° questão =======================")
+print(perfis_validos)
+
+with open("rede_INFNET.txt", "w", encoding="UTF-8") as rede_INFNET:
+  for perfil in perfis_validos:
+    escritor = (
+      f"Nome: {perfil['nome']}, "
+      f"Idade: {perfil['idade']}, "
+      f"Localização: {perfil['localização'][0]}, {perfil['localização'][1]}, "
+      f"Amigos: {', '.join(perfil['amigos']) if perfil['amigos'] else 'Nenhum'}\n"
+    )
+    rede_INFNET.write(escritor)
+
+print("Dados salvos com sucesso!!!")
