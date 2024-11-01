@@ -137,3 +137,19 @@ print("")
 print("=============== Perfis válidos 7° questão =======================")
 print(perfis_validos)
 print("")
+
+# 8 - Crie um programa que permita verificar se um determinado usuário foi adicionado como amigo de mais de 4 usuários. Caso tenha, exiba uma mensagem afirmando que o usuário é "popular".
+
+amigo_popular = {}
+
+for perfil in perfis_validos:
+  amigos = perfil.get("amigos", set())
+  for amigo in amigos:
+    if amigo in amigo_popular:
+      amigo_popular[amigo] += 1
+    else:
+      amigo_popular[amigo] = 1
+
+for amigo, contagem in amigo_popular.items():
+  if contagem > 4:
+    print(f"{amigo} é popular!")
