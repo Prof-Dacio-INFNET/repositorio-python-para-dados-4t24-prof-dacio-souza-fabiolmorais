@@ -19,3 +19,15 @@ for usuario in usuarios:
     "localização": (usuario[2], usuario[3])
   }
   perfis.append(perfil)
+
+
+# 3 - Explique, em poucas palavras, as principais diferenças entre uma lista, um dicionário e uma tupla em Python. Dê exemplos de como cada estrutura pode ser usada no contexto da análise de dados do INFwebNET.
+
+# Lista é uma coleção ordenada, mutável e permite itens duplicados.
+# Dicionário é uma coleção ordenada, mutável e não permite item duplicado.
+# Tupla é uma coleção ordenada, imutável e permite itens duplicados.
+
+# Exemplos:
+# A lista é uma boa estrutura de dados pra usuário por que permite atualização, ou seja, mutável.
+# Dicionário é bom por que permite armazenar os dados completos por chave e valor, tipo: "nome": "Fábio"
+# A Tupla é boa para armazenar dados fixos, como cidade e estado.
