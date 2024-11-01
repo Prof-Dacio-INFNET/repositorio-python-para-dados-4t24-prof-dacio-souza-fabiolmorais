@@ -12,8 +12,10 @@ usuarios = [
 usuarios.append(["Jairo Silva", 56, "", ""])
 
 # Testando a lista usuarios
+print("")
 print("=============== Usuários =======================")
 print(usuarios)
+print("")
 
 
 # 2 - Escreva um programa que leia os dados da lista ‘usuarios’ criada no exercício anterior e crie um dicionário para cada usuário. Cada dicionário deve ter as chaves "nome" e "idade" com os respectivos valores, e a chave "localização" contendo uma tupla (cidade, estado). Armazene esses dicionários em uma nova lista chamada perfis.
@@ -29,8 +31,10 @@ for usuario in usuarios:
   perfis.append(perfil)
 
 # Testando a lista perfis
+print("")
 print("=============== Perfis =======================")
 print(perfis)
+print("")
 
 
 # 3 - Explique, em poucas palavras, as principais diferenças entre uma lista, um dicionário e uma tupla em Python. Dê exemplos de como cada estrutura pode ser usada no contexto da análise de dados do INFwebNET.
@@ -50,8 +54,10 @@ perfis_validos = [
   perfil for perfil in perfis if perfil.get("nome") and perfil["localização"][0]
 ]
 
+print("")
 print("=============== Perfis válidos =======================")
 print(perfis_validos)
+print("")
 
 # 5 - Crie uma implementação que leia os dados presentes no arquivo "base_inicial.txt" e os armazene na lista perfis_validos, criando novas palavras-chave para os dados adicionais encontrados. (O arquivo está disponível no repositório.)
 
@@ -81,8 +87,10 @@ with open(r"C:\python-infnet\python-dados-4t24\repositorio-python-para-dados-4t2
       }
       perfis_validos.append(perfil)
 
+print("")
 print("=============== Perfis válidos após 4° questão =======================")
 print(perfis_validos)
+print("")
 
 # 6 - Com os dados carregados no exercício anterior, adicione os usuários dos exercícios 1 e 2, definindo um padrão para lidar com os dados ausentes e salve estas informações em um arquivo "rede_INFNET.txt".
 
@@ -96,17 +104,36 @@ print("")
 
 perfis_validos.extend(perfis)
 
+print("")
 print("=============== Perfis válidos 6° questão =======================")
 print(perfis_validos)
+print("")
 
-with open("rede_INFNET.txt", "w", encoding="UTF-8") as rede_INFNET:
-  for perfil in perfis_validos:
-    escritor = (
-      f"Nome: {perfil['nome']}, "
-      f"Idade: {perfil['idade']}, "
-      f"Localização: {perfil['localização'][0]}, {perfil['localização'][1]}, "
-      f"Amigos: {', '.join(perfil['amigos']) if perfil['amigos'] else 'Nenhum'}\n"
-    )
-    rede_INFNET.write(escritor)
+# with open("rede_INFNET.txt", "w", encoding="UTF-8") as rede_INFNET:
+#   for perfil in perfis_validos:
+#     escritor = (
+#       f"Nome: {perfil['nome']}, "
+#       f"Idade: {perfil['idade']}, "
+#       f"Localização: {perfil['localização'][0]}, {perfil['localização'][1]}, "
+#       f"Amigos: {', '.join(perfil['amigos']) if perfil['amigos'] else 'Nenhum'}\n"
+#     )
+#     rede_INFNET.write(escritor)
 
+print("")
 print("Dados salvos com sucesso!!!")
+print("")
+
+# 7 - Com o dicionário criado no exercício anterior, adicione um novo amigo ao set de amigos de um usuário específico.
+
+for perfil in perfis_validos:
+  if perfil["nome"] == "Fabio Morais":
+    if not isinstance(perfil["amigos"], set):
+      perfil["amigos"] = set(perfil["amigos"])
+
+    perfil["amigos"].add("Vini")
+    break
+
+print("")
+print("=============== Perfis válidos 7° questão =======================")
+print(perfis_validos)
+print("")
