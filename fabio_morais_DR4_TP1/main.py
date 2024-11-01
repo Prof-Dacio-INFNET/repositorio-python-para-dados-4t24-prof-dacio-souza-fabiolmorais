@@ -170,3 +170,14 @@ print("")
 print("=============== Amigos em comum =======================")
 print(f"Amigos em comum entre {usuario1['nome']} e {usuario2['nome']}: {amigos_em_comum if amigos_em_comum else 'Não tem amigos em comum'}")
 print("")
+
+# 10 - Utilizando os sets do exercício anterior, exiba os amigos que são exclusivos de cada usuário, ou seja, aqueles que não são amigos em comum.
+
+amigos_exclusivos_usuario1 = amigos_usuario1 - amigos_em_comum
+amigos_exclusivos_usuario2 = amigos_usuario2 - amigos_em_comum
+
+print("")
+print("=============== Amigos exclusivos =======================")
+print(f"Amigos exclusivos de {usuario1['nome']}: {amigos_exclusivos_usuario1 if amigos_exclusivos_usuario1 else 'Não tem amigos exclusivos'}")
+print(f"Amigos exclusivos de {usuario2['nome']}: {amigos_exclusivos_usuario2 if amigos_exclusivos_usuario2 else 'Não tem amigos exclusivos'}")
+print("")
