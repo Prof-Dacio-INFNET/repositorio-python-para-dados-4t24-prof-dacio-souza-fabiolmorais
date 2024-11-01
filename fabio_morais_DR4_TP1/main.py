@@ -52,3 +52,31 @@ perfis_validos = [
 
 print("=============== Perfis válidos =======================")
 print(perfis_validos)
+
+# 5 - Crie uma implementação que leia os dados presentes no arquivo "base_inicial.txt" e os armazene na lista perfis_validos, criando novas palavras-chave para os dados adicionais encontrados. (O arquivo está disponível no repositório.)
+
+# Links usados como reforço: https://awari.com.br/python-a-leitura-de-arquivos-txt/ | https://awari.com.br/arquivo-txt-python-aprenda-a-ler-e-manipular-arquivos-de-texto-com-python/
+
+with open("base_inicial.txt", "r", encoding="utf-8") as base_inicial:
+  leitor = base_inicial.readlines()[1:]
+
+  for linha in leitor:
+    dados = linha.strip().split('?')
+
+    nome = dados[0]
+    idade = int(dados[1])
+    cidade = dados[2]
+    estado = dados[3]
+    amigos = dados[4:]
+
+    if nome and cidade:
+      perfil = {
+        "nome": nome,
+        "idade": idade,
+        "localização": (cidade, estado),
+        "amigos": amigos
+      }
+      perfis_validos.append(perfil)
+
+print("=============== Perfis válidos após 4° questão =======================")
+print(perfis_validos)
