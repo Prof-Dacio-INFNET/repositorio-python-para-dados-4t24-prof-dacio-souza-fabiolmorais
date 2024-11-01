@@ -1,3 +1,5 @@
+import random
+
 # 1 - Crie uma lista chamada ‘usuarios’ que contenha ao menos 5 listas. Cada lista interna deve representar um usuário do INFwebNET com as seguintes informações: nome (string), idade (inteiro), cidade (string) e estado (string).
 
 usuarios = [
@@ -153,3 +155,18 @@ for perfil in perfis_validos:
 for amigo, contagem in amigo_popular.items():
   if contagem > 4:
     print(f"{amigo} é popular!")
+
+
+# 9 - Crie um programa que selecione dois perfis aleatórios e utilize sets para armazenar os amigos de cada um desses usuários do INFwebNET. Exiba os amigos em comum entre esses dois usuários, utilizando métodos e operação de sets.
+
+usuario1, usuario2 = random.sample(perfis_validos, 2)
+
+amigos_usuario1 = set(usuario1.get("amigos", []))
+amigos_usuario2 = set(usuario2.get("amigos", []))
+
+amigos_em_comum = amigos_usuario1.intersection(amigos_usuario2)
+
+print("")
+print("=============== Amigos em comum =======================")
+print(f"Amigos em comum entre {usuario1['nome']} e {usuario2['nome']}: {amigos_em_comum if amigos_em_comum else 'Não tem amigos em comum'}")
+print("")
