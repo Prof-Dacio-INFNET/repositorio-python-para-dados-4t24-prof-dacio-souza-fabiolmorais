@@ -1,4 +1,5 @@
 import random
+from collections import Counter
 
 # 1 - Crie uma lista chamada ‘usuarios’ que contenha ao menos 5 listas. Cada lista interna deve representar um usuário do INFwebNET com as seguintes informações: nome (string), idade (inteiro), cidade (string) e estado (string).
 
@@ -270,4 +271,27 @@ def total_amigos(lista):
     print(f"{nome}: {quantidade_amigos} amigo(s).")
 
 
-total_amigos(r"C:\python-infnet\python-dados-4t24\repositorio-python-para-dados-4t24-prof-dacio-souza-fabiolmorais\rede_INFNET.txt")
+# total_amigos(r"C:\python-infnet\python-dados-4t24\repositorio-python-para-dados-4t24-prof-dacio-souza-fabiolmorais\rede_INFNET.txt")
+
+
+# 15 - Analise o arquivo "rede_INFNET_atualizado.txt" e identifique os 5 usuários que foram marcados como amigos pelo maior número de usuários cadastrados. Exiba o nome desses usuários e a quantidade de amigos que cada um possui.
+
+contador_amigos = Counter()
+
+with open(r"C:\python-infnet\python-dados-4t24\repositorio-python-para-dados-4t24-prof-dacio-souza-fabiolmorais\rede_INFNET_atualizado.txt", "r", encoding="utf-8") as rede_INFNET_autalizado:
+  for linha in rede_INFNET_autalizado:
+    if "Amigos:" in linha:
+      amigos = linha.strip().split("Amigos: ")[1]
+      if amigos != "Nenhum":
+        lista_amigos = amigos.split(", ")
+        contador_amigos.update(lista_amigos)
+
+usuarios_popular = contador_amigos.most_common(5)
+
+for nome, quantidade in usuarios_popular:
+  print(f"{nome}: {quantidade} amigos")
+
+
+# 16 - Explique com suas palavras a importância de utilizar o recurso ‘with’ ao lidar com arquivos em Python.
+
+# Pelo o que entendi do with, ele fica responsável por abrir e fechar o arquivo, sendo assim, evitamos de fechar os arquivos toda hora que queremos fazer uma leitura ou escrita.
