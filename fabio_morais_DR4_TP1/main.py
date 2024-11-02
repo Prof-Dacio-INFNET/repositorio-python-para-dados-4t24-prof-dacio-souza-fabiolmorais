@@ -184,20 +184,36 @@ print("")
 
 # 11 - Permita que o usuário remova um amigo da lista de conexões de um membro do INFwebNET específico no dicionário criado no exercício 4.
 
-nome_usuario = input("Digite o nome do usuário: ")
-nome_amigo = input("Digite o nome do amigo: ")
+# nome_usuario = input("Digite o nome do usuário: ")
+# nome_amigo = input("Digite o nome do amigo: ")
 
-usuario_encontrado = None
-for perfil in perfis_validos:
-  if perfil["nome"] == nome_usuario:
-    usuario_encontrado = perfil
-    break
+# usuario_encontrado = None
+# for perfil in perfis_validos:
+#   if perfil["nome"] == nome_usuario:
+#     usuario_encontrado = perfil
+#     break
 
-if usuario_encontrado:
-  if nome_amigo in usuario_encontrado["amigos"]:
-    usuario_encontrado["amigos"].remove(nome_amigo)
-    print(f"Amigo {nome_amigo} removido de {nome_usuario}")
-  else:
-    print(f"{nome_amigo} não está na lista de amigos de {nome_usuario}!")
-else:
-  print(f"Usuário {nome_usuario} não encontrado!")
+# if usuario_encontrado:
+#   if nome_amigo in usuario_encontrado["amigos"]:
+#     usuario_encontrado["amigos"].remove(nome_amigo)
+#     print(f"Amigo {nome_amigo} removido de {nome_usuario}")
+#   else:
+#     print(f"{nome_amigo} não está na lista de amigos de {nome_usuario}!")
+# else:
+#   print(f"Usuário {nome_usuario} não encontrado!")
+
+# 12 - Após adicionar ou remover amigos, salve o dicionário atualizado em um novo arquivo chamado "rede_INFNET_atualizado.txt".
+
+with open("rede_INFNET_atualizado.txt", "w", encoding="UTF-8") as rede_INFNET_atualizado:
+  for perfil in perfis_validos:
+    escritor = (
+      f"Nome: {perfil['nome']}, "
+      f"Idade: {perfil['idade']}, "
+      f"Localização: {perfil['localização'][0]}, {perfil['localização'][1]}, "
+      f"Amigos: {', '.join(perfil['amigos']) if perfil['amigos'] else 'Nenhum'}\n"
+    )
+    rede_INFNET_atualizado.write(escritor)
+
+print("")
+print("Dados salvos com sucesso!!!")
+print("")
