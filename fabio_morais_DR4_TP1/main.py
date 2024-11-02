@@ -235,3 +235,39 @@ print("")
 print("=============== Usuários INFwebNET =======================")
 print(nomes)
 print("")
+
+# 14 - Crie uma função que leia o arquivo "rede_INFNET.txt" e mostre quantos amigos cada usuário possui, imprimindo o nome do usuário e a quantidade de amigos.
+
+
+def total_amigos(lista):
+  usuarios = []
+
+  with open(lista, "r", encoding="utf-8") as rede_INFNET:
+    leitor = rede_INFNET.readlines()
+    for linha in leitor:
+      dados = linha.strip().split(", ")
+
+      nome = dados[0].split(": ")[1]
+      idade = int(dados[1].split(": ")[1])
+      cidade = dados[2].split(": ")[1]
+      estado = dados[3]
+      amigos = dados[4:]
+
+      if "Amigos: Nenhum" in amigos:
+        amigos = []
+
+      usuario = {
+        "Nome": nome,
+        "Idade": idade,
+        "Localização": (cidade, estado),
+        "Amigos": amigos
+      }
+      usuarios.append(usuario)
+
+  for usuario in usuarios:
+    nome = usuario["Nome"]
+    quantidade_amigos = len(usuario["Amigos"])
+    print(f"{nome}: {quantidade_amigos} amigo(s).")
+
+
+total_amigos(r"C:\python-infnet\python-dados-4t24\repositorio-python-para-dados-4t24-prof-dacio-souza-fabiolmorais\rede_INFNET.txt")
