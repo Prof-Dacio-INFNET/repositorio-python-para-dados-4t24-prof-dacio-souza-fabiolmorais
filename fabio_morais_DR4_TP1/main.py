@@ -204,16 +204,34 @@ print("")
 
 # 12 - Após adicionar ou remover amigos, salve o dicionário atualizado em um novo arquivo chamado "rede_INFNET_atualizado.txt".
 
-with open("rede_INFNET_atualizado.txt", "w", encoding="UTF-8") as rede_INFNET_atualizado:
-  for perfil in perfis_validos:
-    escritor = (
-      f"Nome: {perfil['nome']}, "
-      f"Idade: {perfil['idade']}, "
-      f"Localização: {perfil['localização'][0]}, {perfil['localização'][1]}, "
-      f"Amigos: {', '.join(perfil['amigos']) if perfil['amigos'] else 'Nenhum'}\n"
-    )
-    rede_INFNET_atualizado.write(escritor)
+# with open("rede_INFNET_atualizado.txt", "w", encoding="UTF-8") as rede_INFNET_atualizado:
+#   for perfil in perfis_validos:
+#     escritor = (
+#       f"Nome: {perfil['nome']}, "
+#       f"Idade: {perfil['idade']}, "
+#       f"Localização: {perfil['localização'][0]}, {perfil['localização'][1]}, "
+#       f"Amigos: {', '.join(perfil['amigos']) if perfil['amigos'] else 'Nenhum'}\n"
+#     )
+#     rede_INFNET_atualizado.write(escritor)
+
+# print("")
+# print("Dados salvos com sucesso!!!")
+# print("")
+
+# 13 - Escreva um programa que leia o arquivo "rede_INFNET.txt" e imprima na tela a lista dos nomes de todos os usuários da rede social.
+
+nomes = []
+with open(r"C:\python-infnet\python-dados-4t24\repositorio-python-para-dados-4t24-prof-dacio-souza-fabiolmorais\rede_INFNET.txt", "r", encoding="utf-8") as rede_INFNET:
+
+  for linha in rede_INFNET:
+    if "Nome:" in linha:
+      dados = linha.split(",")
+      for dado in dados:
+        if dado.startswith("Nome:"):
+          nomes.append(dado.split("Nome: ")[1].strip())
+          break
 
 print("")
-print("Dados salvos com sucesso!!!")
+print("=============== Usuários INFwebNET =======================")
+print(nomes)
 print("")
