@@ -1,0 +1,236 @@
+[
+    {
+        "Nome": "Fabio Morais",
+        "Idade": "25",
+        "Localização": "('Caruaru', 'Pernambuco')",
+        "Amigos": "Vini"
+    },
+    {
+        "Nome": "Cintia Silva",
+        "Idade": "25",
+        "Localização": "('Caruaru', 'Pernambuco')",
+        "Amigos": "Nenhum"
+    },
+    {
+        "Nome": "Maria do Socorro",
+        "Idade": "50",
+        "Localização": "('Serra Talhada', 'Pernambuco')",
+        "Amigos": "Nenhum"
+    },
+    {
+        "Nome": "Irineu Morais",
+        "Idade": "55",
+        "Localização": "('Serra Talhada', 'Pernambuco')",
+        "Amigos": "Nenhum"
+    },
+    {
+        "Nome": "Mayara Morais",
+        "Idade": "29",
+        "Localização": "('Caruaru', 'Pernambuco')",
+        "Amigos": "Nenhum"
+    },
+    {
+        "Nome": "João",
+        "Idade": "25",
+        "Localização": "('Rio de Janeiro', 'RJ')",
+        "Amigos": "['Ana', 'Carlos', 'Marcos']"
+    },
+    {
+        "Nome": "Ana",
+        "Idade": "22",
+        "Localização": "('São Paulo', 'SP')",
+        "Amigos": "['João', 'Fernanda']"
+    },
+    {
+        "Nome": "Carlos",
+        "Idade": "30",
+        "Localização": "('Belo Horizonte', 'MG')",
+        "Amigos": "['João', 'Marcos', 'Caio']"
+    },
+    {
+        "Nome": "Fernanda",
+        "Idade": "28",
+        "Localização": "('Curitiba', 'PR')",
+        "Amigos": "Ana"
+    },
+    {
+        "Nome": "Marcos",
+        "Idade": "27",
+        "Localização": "('Porto Alegre', 'RS')",
+        "Amigos": "['João', 'Carlos']"
+    },
+    {
+        "Nome": "Clara",
+        "Idade": "26",
+        "Localização": "('Brasília', 'DF')",
+        "Amigos": "['Fernanda', 'Lívia']"
+    },
+    {
+        "Nome": "Lívia",
+        "Idade": "24",
+        "Localização": "('São Paulo', 'SP')",
+        "Amigos": "['Clara', 'Lucas', 'Marcos']"
+    },
+    {
+        "Nome": "Lucas",
+        "Idade": "31",
+        "Localização": "('Salvador', 'BA')",
+        "Amigos": "['Lívia', 'Fernando']"
+    },
+    {
+        "Nome": "Fernando",
+        "Idade": "29",
+        "Localização": "('Fortaleza', 'CE')",
+        "Amigos": "['Lucas', 'Aline']"
+    },
+    {
+        "Nome": "Aline",
+        "Idade": "23",
+        "Localização": "('Florianópolis', 'SC')",
+        "Amigos": "['Fernando', 'Caio', 'Clara']"
+    },
+    {
+        "Nome": "Caio",
+        "Idade": "27",
+        "Localização": "('Curitiba', 'PR')",
+        "Amigos": "['Aline', 'Clara']"
+    },
+    {
+        "Nome": "Sofia",
+        "Idade": "21",
+        "Localização": "('Campinas', 'SP')",
+        "Amigos": "['Rafaela', 'Fernanda']"
+    },
+    {
+        "Nome": "Rafaela",
+        "Idade": "22",
+        "Localização": "('Recife', 'PE')",
+        "Amigos": "['Sofia', 'Clara']"
+    },
+    {
+        "Nome": "Mateus",
+        "Idade": "32",
+        "Localização": "('Rio de Janeiro', 'RJ')",
+        "Amigos": "['Caio', 'Fernando', 'João']"
+    },
+    {
+        "Nome": "Tiago",
+        "Idade": "28",
+        "Localização": "('Brasília', 'DF')",
+        "Amigos": "['Mateus', 'Lívia', 'Aline']"
+    },
+    {
+        "Nome": "Juliana",
+        "Idade": "25",
+        "Localização": "('São Paulo', 'SP')",
+        "Amigos": "['Rafaela', 'Sofia', 'Marcos']"
+    },
+    {
+        "Nome": "Pedro",
+        "Idade": "26",
+        "Localização": "('Belo Horizonte', 'MG')",
+        "Amigos": "['João', 'Aline']"
+    },
+    {
+        "Nome": "Amanda",
+        "Idade": "24",
+        "Localização": "('Porto Alegre', 'RS')",
+        "Amigos": "['Pedro', 'Caio', 'Lívia']"
+    },
+    {
+        "Nome": "Bruno",
+        "Idade": "30",
+        "Localização": "('Cuiabá', 'MT')",
+        "Amigos": "['Ana', 'Marcos', 'Mateus']"
+    },
+    {
+        "Nome": "Carla",
+        "Idade": "29",
+        "Localização": "('Salvador', 'BA')",
+        "Amigos": "['Fernando', 'Tiago', 'Lucas']"
+    },
+    {
+        "Nome": "Gabriela",
+        "Idade": "27",
+        "Localização": "('Fortaleza', 'CE')",
+        "Amigos": "['Carla', 'Aline', 'Rafaela']"
+    },
+    {
+        "Nome": "Thiago",
+        "Idade": "31",
+        "Localização": "('São Paulo', 'SP')",
+        "Amigos": "['João', 'Amanda', 'Lucas', 'Clara']"
+    },
+    {
+        "Nome": "Renata",
+        "Idade": "23",
+        "Localização": "('Curitiba', 'PR')",
+        "Amigos": "['Clara', 'Fernando', 'Sofia']"
+    },
+    {
+        "Nome": "Leonardo",
+        "Idade": "29",
+        "Localização": "('Campinas', 'SP')",
+        "Amigos": "['Renata', 'Mateus', 'Caio']"
+    },
+    {
+        "Nome": "Camila",
+        "Idade": "28",
+        "Localização": "('Niterói', 'RJ')",
+        "Amigos": "['Juliana', 'Bruno', 'Lucas', 'Caio']"
+    },
+    {
+        "Nome": "Felipe",
+        "Idade": "27",
+        "Localização": "('Brasília', 'DF')",
+        "Amigos": "['Renata', 'Carla']"
+    },
+    {
+        "Nome": "Mariana",
+        "Idade": "30",
+        "Localização": "('Porto Alegre', 'RS')",
+        "Amigos": "['Felipe', 'Lívia', 'Fernando']"
+    },
+    {
+        "Nome": "Daniel",
+        "Idade": "25",
+        "Localização": "('Rio de Janeiro', 'RJ')",
+        "Amigos": "['Camila', 'Paulo', 'Amanda']"
+    },
+    {
+        "Nome": "Fabio Morais",
+        "Idade": "25",
+        "Localização": "('Caruaru', 'Pernambuco')",
+        "Amigos": "Vini"
+    },
+    {
+        "Nome": "Cintia Silva",
+        "Idade": "25",
+        "Localização": "('Caruaru', 'Pernambuco')",
+        "Amigos": "Nenhum"
+    },
+    {
+        "Nome": "Maria do Socorro",
+        "Idade": "50",
+        "Localização": "('Serra Talhada', 'Pernambuco')",
+        "Amigos": "Nenhum"
+    },
+    {
+        "Nome": "Irineu Morais",
+        "Idade": "55",
+        "Localização": "('Serra Talhada', 'Pernambuco')",
+        "Amigos": "Nenhum"
+    },
+    {
+        "Nome": "Mayara Morais",
+        "Idade": "29",
+        "Localização": "('Caruaru', 'Pernambuco')",
+        "Amigos": "Nenhum"
+    },
+    {
+        "Nome": "Jairo Silva",
+        "Idade": "56",
+        "Localização": "('', None)",
+        "Amigos": "Nenhum"
+    }
+]
