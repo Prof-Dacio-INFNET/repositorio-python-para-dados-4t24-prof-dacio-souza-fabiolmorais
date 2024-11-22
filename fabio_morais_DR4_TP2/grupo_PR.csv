@@ -1,0 +1,12 @@
+Nome,Idade,Localização,Amigos,Id,Sobrenome,Email,Data de Nascimento,Hobbies,Linguagem de Programação,Jogos Favoritos,ano_nascimento,Estado
+Fernanda,28.0,"('Curitiba', 'PR')",Ana,gb0emrc4,Não Informado,,,,,,1996.0,PR
+Caio,27.0,"('Curitiba', 'PR')","['Aline', 'Clara']",fugcq2b0,Não Informado,,,,,,1997.0,PR
+Renata,23.0,"('Curitiba', 'PR')","['Clara', 'Fernando', 'Sofia']",t2gttytv,Não Informado,,,,,,2001.0,PR
+Larissa,41.0,"('Curitiba', 'PR')",,4685d079,Correia Martins,larissa8@mailservice.com,1983-03-07,[],['Kotlin'],"[('League of Legends', 'PC'), ('The Witcher 3', 'Xbox One'), ('Overwatch', 'PC')]",1983.0,PR
+Matheus,32.0,"('Curitiba', 'PR')",,723a6950,Fernandes,matheus4@randommail.com,1991-12-11,"['leitura', 'natação']","['Swift', 'Java']",[],1992.0,PR
+Bruno,,"('Curitiba', 'PR')",,bb8d846d,Correia Costa,bruno53@fastmail.com,2003-08-11,"['cinema', 'leitura']",['JavaScript'],"[('League of Legends', 'PC'), ('The Witcher 3', 'Xbox One'), ('Fortnite', 'PlayStation 4'), ('Minecraft', 'PC')]",,PR
+Beatriz,45.0,"('Curitiba', 'PR')",,176f60dc,Almeida Lima Costa,beatrizpc@freemail.com,1979-03-23,[],"['Go', 'Swift', 'Ruby', 'C#', 'PHP']","[('Cyberpunk 2077', 'PC'), ('Overwatch', 'PC'), ('Apex Legends', 'PC')]",1979.0,PR
+Lucas,28.0,"('Curitiba', 'PR')",,dd699dbf,Fernandes Santos,lucasf@webmail.net,1996-03-26,"['cinema', 'fotografia']","['Python', 'Kotlin', 'Go', 'JavaScript']","[('Among Us', 'Mobile')]",1996.0,PR
+Bruno,28.0,"('Curitiba', 'PR')",,f734c476,Ribeiro Rocha Almeida,brunobsz@randommail.com,1996-03-05,"['cozinhar', 'viagem', 'leitura']","['Kotlin', 'PHP', 'Java', 'C++']","[('GTA V', 'PlayStation 4'), ('Fortnite', 'PlayStation 4'), ('Overwatch', 'PC'), ('Apex Legends', 'PC'), ('Valorant', 'PC')]",1996.0,PR
+Bruno,40.0,"('Curitiba', 'PR')",,a84e18cc,Dias,bruno11@freemail.com,1984-05-05,['viagem'],"['Go', 'Java', 'C#', 'JavaScript', 'Ruby']","[('Fortnite', 'PlayStation 4'), ('Cyberpunk 2077', 'PC'), ('Among Us', 'Mobile'), ('GTA V', 'PlayStation 4')]",1984.0,PR
+Carla,44.0,"('Curitiba', 'PR')",,be43ff75,Araújo Santos Dias,carla8@randommail.com,1979-11-08,['música'],[],"[('Valorant', 'PC'), ('Cyberpunk 2077', 'PC'), ('GTA V', 'PlayStation 4'), ('Fortnite', 'PlayStation 4')]",1980.0,PR

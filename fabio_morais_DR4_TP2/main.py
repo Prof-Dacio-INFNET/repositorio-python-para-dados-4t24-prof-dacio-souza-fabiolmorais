@@ -2,6 +2,8 @@ import pandas as pd
 import csv
 import json
 import datetime as dt
+import random
+from IPython.display import display
 
 def abrindo_as_portas():
   """Função criada para resover a questão 1 do enunciado: Abrindo as Portas.
@@ -330,20 +332,285 @@ def organizando_a_bagunca():
   return df_atualizado
 
 def criando_informacoes():
+  """Função criada para resover a questão 8 do enunciado: Criando Informações.
+  Essa função não recebe nada como parâmetro e retorno df_atualizado
+
+  Crio duas variaveis, uma para receber a função organizando_a_bagunça e outra para fazer o calculo do ano_nascimento
+  No final adiciono a informação ano_nascimento na nova coluna e exporto um csv para verificar se deu certo.
+  """
   df_atualizado = organizando_a_bagunca()
 
   ano_nascimento = dt.datetime.now().year - df_atualizado["Idade"]
 
   df_atualizado["ano_nascimento"] = ano_nascimento
 
-  print(df_atualizado)
+  df_atualizado.to_csv("novos_usuarios.csv")
 
+  return df_atualizado
+
+def completando_os_dados():
+  """Função criada para resover a questão 9 do enunciado: Completando os Dados.
+  Essa função não recebe nada como parâmetro e retorno o df_atualizado
+
+  Crio uma função para retornar um id aleatorio
+  Depois utilizo uma função lambda para adicionar tanto o id, como o sobrenome não informado aos campos que tiverem valores ausentes
+  Decidi incluir o id para todos os usuários tenham um identificador único, usei o mesmo criterio dos Id já existente
+  E decidi incluir o sobrenome simplesmente pq não tinha outro campo como Id que fizesse tanto sentido adicionar a informação, pois os outros campos são informações pessoais, por isso a string "Não Informado"
+  No final exporto um csv para verificar se deu certo e retorno o novo dataframe = df.
+  """
+  def gerar_id():
+    """ função para retornar um id aleatorio
+
+    Returns:
+        string: uma string aleatoria
+    """
+    return "".join(random.choices("0123456789abcdefghijklmnopqrstuvxyz", k=8))
+
+  df_atualizado = criando_informacoes()
+
+  df_atualizado["Id"] = df_atualizado["Id"].apply(lambda x: gerar_id() if pd.isna(x) else x)
+  df_atualizado["Sobrenome"] = df_atualizado["Sobrenome"].apply(lambda x: "Não Informado" if pd.isna(x) else x)
+
+  df_atualizado.to_csv("novos_usuarios.csv")
+
+  return df_atualizado
+
+def guardando_as_informacoes():
+  """Função criada para resover a questão 10 do enunciado: Guardando as Informações.
+  Essa função não recebe nada como parâmetro e retorna nada
+
+  Basicamente pego o dataframe mais atualizado e exporto o json conforme o enunciado pede.
+  """
+
+  df_atualizado = completando_os_dados()
+
+  df_atualizado.to_json('fabio_morais_DR4_TP2/INFwebNet_Data.json', orient='records', indent=4, force_ascii=False)
+
+def selecionando_grupos():
+  """Função criada para resover a questão 11 do enunciado: Selecionando Grupos.
+  Essa função não recebe nada como parâmetro e retorna nada
+
+  Primeiramente acesso o json criado anteriormente para atualizar os dados para que fiquem na mesma estrutura, por exemplo: Pernambuco para PE.
+  Depois faço o que o enunciado pede, primeiro crio uma função para tratar a string e deixa-la da forma que quero usando o split e replace, depois percorro o df["Estado"] para criar os arquivos de acordo com o filtro
+  """
+
+  with open("fabio_morais_DR4_TP2/INFwebNet_Data.json", "r", encoding="utf-8") as infwebnet_data:
+    dados = json.load(infwebnet_data)
+
+  for dado in dados:
+    dado["Localização"] = dado["Localização"].replace("Pernambuco", "PE")
+
+  with open("fabio_morais_DR4_TP2/INFwebNet_Data.json", "w", encoding="utf-8") as infwebnet_data_atualizado:
+    json.dump(dados, infwebnet_data_atualizado, indent=4, ensure_ascii=False)
+
+  df = pd.read_json("fabio_morais_DR4_TP2/INFwebNet_Data.json")
+
+  def sigla_estado(localizacao):
+    """função para tratar o df e deixar a string do jeito que quero
+
+    Args:
+        localizacao (df): o df contendo os dados
+
+    Returns:
+        string: uma string com o estado
+    """
+    estado = localizacao.split(", ")
+    estado = estado[-1].replace(")", "").replace("'", "")
+    return estado
+
+  df["Estado"] = df["Localização"].apply(sigla_estado)
+
+  for estado in df["Estado"].unique():
+    df_estado = df[df["Estado"] == estado]
+
+    nome_grupo = f"fabio_morais_DR4_TP2/grupo_{estado}.csv"
+    df_estado.to_csv(nome_grupo, index=False, encoding="utf-8")
+
+def agrupando_infnetianos():
+  """Função criada para resover a questão 12 do enunciado: Agrupando INFNETianos.
+  Essa função não recebe nada como parâmetro e retorna nada
+
+  Primeiro leio o arquivo json, depois crio a função solicitada no enunciado.
+  """
+  df = pd.read_json("fabio_morais_DR4_TP2/INFwebNet_Data.json")
+
+  def filtrar_por_ano(df, primeiro_ano, segundo_ano):
+    """Função criada para filtrar os usuarios de acordo com os anos informados
+
+    Args:
+        df (dataframe): o df que tem os dados do usuario
+        primeiro_ano (int): o ano inicial do filtro
+        segundo_ano (int): o ano final do filtro
+    Returns:
+        dataframe: um novo df com os usuarios filtrados
+    """
+    df_filtrado = df[(df['ano_nascimento'] >= primeiro_ano) & (df['ano_nascimento'] <= segundo_ano)]
+    
+    display(df_filtrado)
+    
+    return df_filtrado
+  
+  filtrar_por_ano(df, 1996, 1999)
+
+def selecionando_infnetianos():
+  """Função criada para resover a questão 13 do enunciado: Selecionando INFNETiano.
+  Essa função não recebe nada como parâmetro e retorna nada
+
+  Primeiro leio o arquivo json, depois crio a função solicitada no enunciado.
+  """
+  df = pd.read_json("fabio_morais_DR4_TP2/INFwebNet_Data.json")
+
+  def buscar_usuario(df, nome):
+    """Busca um usuario pelo o nome e exibe-o, permitindo o usuario selecionar o INFNETiano.
+
+    Args:
+        df (dataframe): o dataframe com os dados dos usuarios
+        nome (string): o nome do usuario
+    """
+    filtra_usuario_por_nome = df[df['Nome'].str.contains(nome, case=False, na=False)]
+
+    if filtra_usuario_por_nome.empty:
+      print("Nenhum usuario encontrado!")
+      return
+    
+    if len(filtra_usuario_por_nome) > 1:
+      print("Usuarios encontrados:")
+      for index, (_, usuario) in enumerate(filtra_usuario_por_nome.iterrows(), start=1):
+          print(f"{index}. {usuario['Nome']} - {usuario['Id']}")
+      
+      escolha = int(input(f"Escolha o número do usuário (1-{len(filtra_usuario_por_nome)}): ")) - 1
+      
+      if 0 <= escolha < len(filtra_usuario_por_nome):
+          print("\nUsuario selecionado:")
+          print(filtra_usuario_por_nome.iloc[escolha])
+      else:
+          print("Escolha inválida.")
+    
+    else:
+      print("\nUsuario encontrado:")
+      print(filtra_usuario_por_nome.iloc[0])
+  
+  nome = input("Digite o nome que queira buscar: ")
+  buscar_usuario(df, nome)
+
+def atualizando_dados():
+  """Função criada para resover a questão 14 do enunciado: Atualizando Dados.
+  Essa função não recebe nada como parâmetro e retorna nada
+
+  Decidi criar outra função para fazer tudo do inicio e separar os enunciados, um para filtrar e outro para editar.
+  """
+  
+  df = pd.read_json("fabio_morais_DR4_TP2/INFwebNet_Data.json")
+
+  def editar_dados(usuario_selecionado, indice_usuario):
+    """Função criada para editar os dados do usuario selecionado, como decidi refazer o código da função anterior, então eu tenho 2 formas pra editar os dados do usuário, a primeira é quando o nome filtrado só tem 1 e a segunda é que se tiver mais de um nome do filtrado, então o usuario tem que escolher qual quer editar. Pra não repetir o mesmo código, criei essa função
+
+    Args:
+        usuario_selecionado (dict): Dicionario contendo o usuário selecionado
+        indice_usuario (int): Corresponde ao indice da linha no dataframe
+    """
+    print("\nDados disponíveis para atualização: ")
+    dados = list(usuario_selecionado.keys())
+    for index, dado in enumerate(dados, start=1):
+      print(f"{index} - {dado}")
+
+    dado_escolhido = int(input("\nDigite o número do dado que deseja atualizar: ")) - 1
+    if 0 <= dado_escolhido < len(dados):
+        dado = dados[dado_escolhido]
+        if dado in ["Hobbies", "Jogos Favoritos"]:
+          print(f"\nAtualizando {dado} **lembre-se, o máximo são 5**.")
+          novos_dados = []
+          for i in range(5):
+            valor = input(f"Digite o {i+1}º {dado} ou pressione Enter para finalizar: ")
+            if not valor:
+              break
+            novos_dados.append(valor)
+          usuario_selecionado[dado] = novos_dados
+        else:
+          novo_valor = input(f"Digite o novo valor para {dado}: ")
+          usuario_selecionado[dado] = novo_valor
+
+        df.iloc[indice_usuario] = usuario_selecionado
+        df.to_json("fabio_morais_DR4_TP2/INFwebNet_Data.json", orient='records', indent=4, force_ascii=False)
+    
+    else:
+      print("Escolha inválida.")
+
+  def atualizar_dados_usuario(df, nome):
+    """Busca um usuario pelo o nome e exibe-o, permitindo o usuario atualizar os dados do INFNETiano.
+
+    Args:
+        df (dataframe): o dataframe com os dados dos usuarios
+        nome (string): o nome do usuario
+    """
+    filtra_usuario_por_nome = df[df['Nome'].str.contains(nome, case=False, na=False)]
+
+    if filtra_usuario_por_nome.empty:
+      print("Nenhum usuario encontrado!")
+      return
+    
+    if len(filtra_usuario_por_nome) > 1:
+      print("Usuarios encontrados:")
+      for index, (_, usuario) in enumerate(filtra_usuario_por_nome.iterrows(), start=1):
+          print(f"{index}. {usuario['Nome']} - {usuario['Id']}")
+      
+      escolha = int(input(f"Escolha o número do usuário (1-{len(filtra_usuario_por_nome)}) que deseja atualizar: ")) - 1
+      
+      if 0 <= escolha < len(filtra_usuario_por_nome):
+          usuario_selecionado = filtra_usuario_por_nome.iloc[escolha].to_dict()
+          editar_dados(usuario_selecionado, filtra_usuario_por_nome.index[escolha])
+      else:
+          print("Escolha inválida.")
+    
+    else:
+      print("\nUsuario encontrado:")
+      usuario_selecionado = filtra_usuario_por_nome.iloc[0].to_dict()
+      editar_dados(filtra_usuario_por_nome, filtra_usuario_por_nome.index[0])
+  
+  nome = input("Digite o nome que queira buscar: ")
+  atualizar_dados_usuario(df, nome)
+
+def trending():
+  """Função criada para resover a questão 15 do enunciado: Trending.
+  Essa função não recebe nada como parâmetro e retorna nada
+
+  Primeiro leio o json.
+  Depois uso o fillna para remover as lingugens de programação que não tem nada, ou seja, são Null, NaN, etc.
+  Depois crio uma lista de linguagens vazia.
+  Depois percorro o df e trato os dados para incluir na lista criada anteriormente.
+  Depois crio uma variavel para contar a quantidade de vezes que uma linguagem se repete, utilizo o values_count para isso.
+  No fim, percorro a lista para imprimir as 5 mais citadas, conforme pede o enunciado.
+  """
+  df = pd.read_json("fabio_morais_DR4_TP2/INFwebNet_Data.json")
+
+  df['Linguagem de Programação'] = df['Linguagem de Programação'].fillna('')
+
+  linguagens = []
+
+  for index, linha in df.iterrows():
+    lista_linguagens = linha["Linguagem de Programação"]
+
+    if lista_linguagens:
+      linguagens += [linguagem.strip() for linguagem in lista_linguagens.split(",") if linguagem != "[]"]
+
+  contagem_linguagens = pd.Series(linguagens).value_counts()
+
+  print("\nAs 5 linguagens mais citadas:")
+  for i, (linguagem, contagem) in enumerate(contagem_linguagens.head(5).items(), start=1):
+    print(f"{i} - {linguagem}: {contagem}")
 
 abrindo_as_portas()
 estruturando_os_dados()
-#cadastro_simplificado()
-#analise_com_pandas()
-#ampliando_as_informacoes()
+cadastro_simplificado()
+analise_com_pandas()
+ampliando_as_informacoes()
 dados_delimitados()
 organizando_a_bagunca()
 criando_informacoes()
+completando_os_dados()
+guardando_as_informacoes()
+selecionando_grupos()
+agrupando_infnetianos()
+selecionando_infnetianos()
+atualizando_dados()
+trending()

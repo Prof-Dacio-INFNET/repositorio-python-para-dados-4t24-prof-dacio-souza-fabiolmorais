@@ -1,0 +1,2 @@
+Nome,Idade,Localização,Amigos,Id,Sobrenome,Email,Data de Nascimento,Hobbies,Linguagem de Programação,Jogos Favoritos,ano_nascimento,Estado
+Ana,41.0,"('São Paulo', 'ZZ')",,0592809f,Rodrigues,anav9i@inbox.org,1983-06-16,"['pintura', 'fotografia']","['Python', 'Java', 'PHP', 'Kotlin', 'Swift']","[('Valorant', 'PC'), ('Overwatch', 'PC')]",1983.0,ZZ

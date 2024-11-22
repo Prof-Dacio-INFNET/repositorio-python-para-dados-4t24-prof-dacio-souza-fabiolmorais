@@ -1,0 +1,12 @@
+Nome,Idade,Localização,Amigos,Id,Sobrenome,Email,Data de Nascimento,Hobbies,Linguagem de Programação,Jogos Favoritos,ano_nascimento,Estado
+Clara,26.0,"('Brasília', 'DF')","['Fernanda', 'Lívia']",91kky2cf,Não Informado,,,,,,1998.0,DF
+Tiago,28.0,"('Brasília', 'DF')","['Mateus', 'Lívia', 'Aline']",0b8dk766,Não Informado,,,,,,1996.0,DF
+Felipe,27.0,"('Brasília', 'DF')","['Renata', 'Carla']",0f2pf6v0,Não Informado,,,,,,1997.0,DF
+Camila,25.0,"('Brasília', 'DF')",,89d761b6,Carvalho Dias Ribeiro,camilac1@freemail.com,1999-07-08,"['cinema', 'ciclismo']","['JavaScript', 'Go', 'Java']","[('Minecraft', 'PC'), ('Among Us', 'Mobile'), ('Valorant', 'PC'), ('The Witcher 3', 'Xbox One')]",1999.0,DF
+Mariana,,"('Brasília', 'DF')",,ed4fdaad,Rocha Oliveira Dias,mariana07@example.com,1992-09-06,[],"['C#', 'Java', 'Go']","[('GTA V', 'PlayStation 4')]",,DF
+Beatriz,45.0,"('Brasília', 'DF')",,a9376f01,Dias Ribeiro Lima,,1979-04-04,"['natação', 'cozinhar', 'fotografia', 'pintura']",[],[],1979.0,DF
+Rafael,37.0,"('Brasília', 'DF')",,2a5a7599,Gomes,rafaelfwk@webmail.net,1987-08-19,"['cinema', 'viagem', 'leitura', 'cozinhar', 'ciclismo']","['Ruby', 'Java', 'C#']","[('Apex Legends', 'PC'), ('GTA V', 'PlayStation 4'), ('Fortnite', 'PlayStation 4'), ('Valorant', 'PC')]",1987.0,DF
+Camila,32.0,"('Brasília', 'DF')",,5526070b,Souza,camilawce@webmail.net,1992-09-14,"['cozinhar', 'pintura']","['C++', 'Ruby', 'Kotlin', 'Java', 'JavaScript']","[('Fortnite', 'PlayStation 4'), ('The Witcher 3', 'Xbox One'), ('Valorant', 'PC'), ('Overwatch', 'PC')]",1992.0,DF
+Pedro,,"('Brasília', 'DF')",,ce987d08,Araújo Costa,,1995-12-16,"['ciclismo', 'cinema']","['JavaScript', 'PHP', 'Swift']","[('Fortnite', 'PlayStation 4')]",,DF
+Julia,36.0,"('Brasília', 'DF')",,a909c919,Carvalho Fernandes Martins,juliae@inbox.org,1988-05-02,[],['Java'],"[('Minecraft', 'PC')]",1988.0,DF
+Bruno,47.0,"('Brasília', 'DF')",,c8799bd4,Silva Dias Rocha,brunoe@randommail.com,1976-12-25,"['cinema', 'natação', 'cozinhar', 'fotografia']","['JavaScript', 'Go', 'Ruby']",[],1977.0,DF

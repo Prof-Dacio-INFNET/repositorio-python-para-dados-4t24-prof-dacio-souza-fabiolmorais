@@ -1,0 +1,14 @@
+Nome,Idade,Localização,Amigos,Id,Sobrenome,Email,Data de Nascimento,Hobbies,Linguagem de Programação,Jogos Favoritos,ano_nascimento,Estado
+Marcos,27.0,"('Porto Alegre', 'RS')","['João', 'Carlos']",70ii0fzf,Não Informado,,,,,,1997.0,RS
+Amanda,24.0,"('Porto Alegre', 'RS')","['Pedro', 'Caio', 'Lívia']",9yh348h4,Não Informado,,,,,,2000.0,RS
+Mariana,30.0,"('Porto Alegre', 'RS')","['Felipe', 'Lívia', 'Fernando']",97c3r6es,Não Informado,,,,,,1994.0,RS
+Camila,20.0,"('Porto Alegre', 'RS')",,e439f93f,Ribeiro Dias,camilaee@freemail.com,2004-10-22,"['cinema', 'futebol', 'natação']","['PHP', 'Kotlin', 'C#', 'Go', 'Java']","[('Apex Legends', 'PC'), ('Minecraft', 'PC')]",2004.0,RS
+Rafael,30.0,"('Porto Alegre', 'RS')",,88588439,Oliveira,rafaelau0@freemail.com,1993-11-07,[],['Java'],"[('Fortnite', 'PlayStation 4'), ('Cyberpunk 2077', 'PC')]",1994.0,RS
+Beatriz,31.0,"('Porto Alegre', 'RS')",,1991bdf1,Araújo Souza,beatriz00q@inbox.org,1993-06-01,"['fotografia', 'viagem', 'cozinhar', 'natação', 'leitura']","['Ruby', 'Go', 'JavaScript', 'Java', 'PHP']","[('Among Us', 'Mobile'), ('Valorant', 'PC'), ('Overwatch', 'PC')]",1993.0,RS
+Carlos,26.0,"('Porto Alegre', 'RS')",,a39d2340,Ribeiro Rocha Rodrigues,carlosvik@fastmail.com,1997-11-03,"['viagem', 'fotografia', 'ciclismo', 'cozinhar', 'pintura']",[],"[('Among Us', 'Mobile'), ('Overwatch', 'PC'), ('Fortnite', 'PlayStation 4')]",1998.0,RS
+Larissa,47.0,"('Porto Alegre', 'RS')",,26a53093,Santos Ribeiro,larissarnl@randommail.com,1977-08-05,"['ciclismo', 'cozinhar']","['PHP', 'JavaScript', 'C++', 'Python']","[('Overwatch', 'PC'), ('Fortnite', 'PlayStation 4')]",1977.0,RS
+Camila,32.0,"('Porto Alegre', 'RS')",,03b7736a,Oliveira Costa Moraes,camilaphh@fastmail.com,1992-03-06,"['futebol', 'música', 'natação']",[],"[('Among Us', 'Mobile'), ('Minecraft', 'PC'), ('Fortnite', 'PlayStation 4')]",1992.0,RS
+Pedro,39.0,"('Porto Alegre', 'RS')",,97fa29e9,Silva,pedroy4@mailservice.com,1985-04-12,"['cinema', 'pintura', 'futebol', 'cozinhar']","['Swift', 'Python']","[('The Witcher 3', 'Xbox One')]",1985.0,RS
+Larissa,29.0,"('Porto Alegre', 'RS')",,de90a03f,Costa,larissaosc@example.com,1994-12-22,['ciclismo'],"['Swift', 'Go', 'PHP']","[('GTA V', 'PlayStation 4'), ('Minecraft', 'PC'), ('The Witcher 3', 'Xbox One'), ('League of Legends', 'PC'), ('Cyberpunk 2077', 'PC')]",1995.0,RS
+Luís,31.0,"('Porto Alegre', 'RS')",,45cb04d7,Pereira,luísh@inbox.org,20.06.1996,[],"['Python', 'PHP', 'Kotlin', 'Go', 'Ruby']","[('League of Legends', 'PC'), ('GTA V', 'PlayStation 4'), ('Valorant', 'PC'), ('Fortnite', 'PlayStation 4'), ('Apex Legends', 'PC')]",1993.0,RS
+Larissa,,"('Porto Alegre', 'RS')",,26a53093,Santos Ribeiro,larissarnl@randommail.com,1977-08-05,"['ciclismo', 'cozinhar']","['PHP', 'JavaScript', 'C++', 'Python']","[('Overwatch', 'PC'), ('Fortnite', 'PlayStation 4')]",,RS
