@@ -1,0 +1,19 @@
+Nome,Idade,Localização,Amigos,Id,Sobrenome,Email,Data de Nascimento,Hobbies,Linguagem de Programação,Jogos Favoritos,ano_nascimento,Estado
+Fabio Morais,25.0,"('Caruaru', 'PE')",Vini,7dpfqefk,Não Informado,,,,,,1999.0,PE
+Cintia Silva,25.0,"('Caruaru', 'PE')",Nenhum,z9rfufzt,Não Informado,,,,,,1999.0,PE
+Maria do Socorro,50.0,"('Serra Talhada', 'PE')",Nenhum,cu53ikl7,Não Informado,,,,,,1974.0,PE
+Irineu Morais,55.0,"('Serra Talhada', 'PE')",Nenhum,socptls0,Não Informado,,,,,,1969.0,PE
+Mayara Morais,29.0,"('Caruaru', 'PE')",Nenhum,cjxz017q,Não Informado,,,,,,1995.0,PE
+Rafaela,22.0,"('Recife', 'PE')","['Sofia', 'Clara']",4e7712yz,Não Informado,,,,,,2002.0,PE
+Fabio Morais,25.0,"('Caruaru', 'PE')",Vini,laajd7xu,Não Informado,,,,,,1999.0,PE
+Cintia Silva,25.0,"('Caruaru', 'PE')",Nenhum,0cin8zq1,Não Informado,,,,,,1999.0,PE
+Maria do Socorro,50.0,"('Serra Talhada', 'PE')",Nenhum,rmjp4t9m,Não Informado,,,,,,1974.0,PE
+Irineu Morais,55.0,"('Serra Talhada', 'PE')",Nenhum,u3v94hd7,Não Informado,,,,,,1969.0,PE
+Mayara Morais,29.0,"('Caruaru', 'PE')",Nenhum,rbduph41,Não Informado,,,,,,1995.0,PE
+Camila,45.0,"('Recife', 'PE')",,1c2874a4,Santos,camila6oo@inbox.org,05/03/81,"['ciclismo', 'pintura', 'natação', 'música', 'cinema']","['Java', 'Kotlin', 'C++', 'Ruby', 'Python']","[('Cyberpunk 2077', 'PC'), ('League of Legends', 'PC')]",1979.0,PE
+Julia,22.0,"('Recife', 'PE')",,3e7e4ad8,Pereira Santos Almeida,julia5b8@freemail.com,2002-10-13,"['ciclismo', 'pintura', 'cozinhar', 'música', 'fotografia']",[],"[('GTA V', 'PlayStation 4')]",2002.0,PE
+Rafael,42.0,"('Recife', 'PE')",,8752082c,Oliveira Souza Santos,rafaelav@inbox.org,1982-09-26,"['futebol', 'música', 'pintura', 'cinema']","['Go', 'Kotlin', 'Ruby']","[('GTA V', 'PlayStation 4')]",1982.0,PE
+Luís,,"('Recife', 'PE')",,8284af6b,Almeida Gomes Ribeiro,luísl4@fastmail.com,1980-12-27,['pintura'],"['Python', 'Java']","[('Fortnite', 'PlayStation 4')]",,PE
+Guilherme,36.0,"('Recife', 'PE')",,315c291f,Pereira Barbosa Souza,guilherme5e@webmail.net,1988-06-13,"['música', 'cinema', 'cozinhar', 'natação']",['Swift'],"[('The Witcher 3', 'Xbox One'), ('Overwatch', 'PC'), ('Fortnite', 'PlayStation 4'), ('Among Us', 'Mobile')]",1988.0,PE
+Ana,45.0,"('Recife', 'PE')",,04b146fc,Moraes Pereira Ribeiro,anaat@example.com,1978-11-09,['viagem'],[],"[('Overwatch', 'PC'), ('Valorant', 'PC'), ('GTA V', 'PlayStation 4')]",1979.0,PE
+Luís,43.0,"('Recife', 'PE')",,8284af6b,Almeida Gomes Ribeiro,luísl4@fastmail.com,1980-12-27,['pintura'],"['Python', 'Java']","[('Fortnite', 'PlayStation 4')]",1981.0,PE

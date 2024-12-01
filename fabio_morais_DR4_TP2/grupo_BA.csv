@@ -1,0 +1,10 @@
+Nome,Idade,Localização,Amigos,Id,Sobrenome,Email,Data de Nascimento,Hobbies,Linguagem de Programação,Jogos Favoritos,ano_nascimento,Estado
+Lucas,31.0,"('Salvador', 'BA')","['Lívia', 'Fernando']",vv37ss6y,Não Informado,,,,,,1993.0,BA
+Carla,29.0,"('Salvador', 'BA')","['Fernando', 'Tiago', 'Lucas']",my4u7hst,Não Informado,,,,,,1995.0,BA
+Camila,29.0,"('Salvador', 'BA')",,a758d57e,Martins Fernandes Oliveira,,1994-12-21,"['leitura', 'pintura', 'viagem']","['Ruby', 'PHP']","[('GTA V', 'PlayStation 4')]",1995.0,BA
+Larissa,19.0,"('Salvador', 'BA')",,24d56155,Oliveira Souza Carvalho,larissali@inbox.org,2005-05-12,"['futebol', 'cozinhar', 'pintura']","['JavaScript', 'Python', 'Swift']","[('Cyberpunk 2077', 'PC'), ('Overwatch', 'PC')]",2005.0,BA
+Rafael,42.0,"('Salvador', 'BA')",,37925a69,Martins Ribeiro Moraes,,1982-05-26,"['leitura', 'fotografia', 'pintura', 'natação', 'música']","['JavaScript', 'Ruby']","[('Cyberpunk 2077', 'PC'), ('The Witcher 3', 'Xbox One'), ('Among Us', 'Mobile')]",1982.0,BA
+Luís,44.0,"('Salvador', 'BA')",,12017cea,Dias Souza Barbosa,luís3j@randommail.com,1980-08-22,[],['PHP'],[],1980.0,BA
+Ana,32.0,"('Salvador', 'BA')",,464738a1,Carvalho Moraes,anaro5@fastmail.com,2024-07-22,['cozinhar'],"['Ruby', 'PHP', 'C++']","[('Apex Legends', 'PC')]",1992.0,BA
+Rafael,44.0,"('Salvador', 'BA')",,be552028,Lima Oliveira Barbosa,rafael0@mailservice.com,1980-04-19,"['leitura', 'natação', 'viagem', 'música']","['JavaScript', 'Java', 'PHP', 'C#', 'C++']","[('Minecraft', 'PC'), ('Fortnite', 'PlayStation 4'), ('Among Us', 'Mobile')]",1980.0,BA
+Beatriz,27.0,"('Salvador', 'BA')",,04cbcc69,Souza Pereira,beatrizg0j@freemail.com,,"['cinema', 'ciclismo', 'pintura']","['C++', 'PHP', 'Ruby']","[('Cyberpunk 2077', 'PC')]",1997.0,BA

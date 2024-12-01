@@ -1,0 +1,26 @@
+[
+    {
+        "Produto": "Teclado",
+        "Marca": "Logitech",
+        "Preço": 607.09,
+        "Quantidade": 5
+    },
+    {
+        "Produto": "Computador",
+        "Marca": [
+            "HP",
+            {
+                "Dell": "Gamer"
+            },
+            "Apple"
+        ],
+        "Preço": 110.76,
+        "Quantidade": 17
+    },
+    {
+        "nome": "Alice",
+        "idade": 30,
+        "email": "alice@example.com",
+        "Mátriculada": true
+    }
+]

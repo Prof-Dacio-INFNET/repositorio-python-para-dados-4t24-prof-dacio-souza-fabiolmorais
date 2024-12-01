@@ -1,2 +1,7 @@
-nome,cidade,idade
+nome,"('cidade', 'estado')",idade
 Alice,Recife,28
+Nome,Idade
+Alice,30
+Bob,25
+Alef,São Paulo,8,33
+Leonardo,15

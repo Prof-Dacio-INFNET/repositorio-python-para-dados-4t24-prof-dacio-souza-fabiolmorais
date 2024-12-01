@@ -1,0 +1,10 @@
+Nome,Idade,Localização,Amigos,Id,Sobrenome,Email,Data de Nascimento,Hobbies,Linguagem de Programação,Jogos Favoritos,ano_nascimento,Estado
+Jairo Silva,56.0,"('', None)",Nenhum,2qa0fs28,Não Informado,,,,,,1968.0,None
+Ana,45.0,"('Juiz de Fora', 'None')",,1000e909,Barbosa,ana7n@mailservice.com,1979-06-11,"['ciclismo', 'fotografia']","['C++', 'PHP', 'Ruby', 'Go', 'C#']","[('Overwatch', 'PC'), ('Apex Legends', 'PC'), ('Minecraft', 'PC')]",1979.0,None
+Carlos,48.0,"('São Paulo', 'None')",,22ec0237,Rocha,carlosc@randommail.com,1976-09-03,"['viagem', 'leitura', 'ciclismo']","['Python', 'Kotlin', 'C++', 'Ruby']","[('League of Legends', 'PC'), ('The Witcher 3', 'Xbox One')]",1976.0,None
+Guilherme,44.0,"('None', 'None')",,2bfa3d18,Costa Dias,guilhermeoj@inbox.org,1980-06-21,[],"['Swift', 'Java', 'JavaScript', 'Ruby', 'PHP']","[('Apex Legends', 'PC'), ('Cyberpunk 2077', 'PC'), ('Overwatch', 'PC')]",1980.0,None
+Guilherme,33.0,"('Rio de Janeiro', 'None')",,e743f4c4,Moraes Souza Santos,guilherme84d@webmail.net,1991-03-25,[],"['C#', 'Java', 'Python']","[('GTA V', 'PlayStation 4'), ('Apex Legends', 'PC'), ('Overwatch', 'PC'), ('Among Us', 'Mobile')]",1991.0,None
+Camila,38.0,"('Manaus', 'None')",,22aecc6b,Gomes Dias Moraes,camilabh@fastmail.com,1986-07-05,"['ciclismo', 'leitura', 'cozinhar']","['Java', 'Ruby']","[('The Witcher 3', 'Xbox One')]",1986.0,None
+Guilherme,41.0,"('None', 'None')",,7043c6b1,Dias Fernandes,guilhermecl@fastmail.com,1983-03-19,"['fotografia', 'natação', 'música', 'viagem']","['Python', 'Kotlin', 'PHP', 'C++', 'Swift']","[('Overwatch', 'PC')]",1983.0,None
+Mariana,29.0,"('None', 'None')",,ca4fc87a,Almeida Silva,mariana1@mail.com,1995-11-22,"['música','viagem']","['Java','C#']","[('The Witcher 3','Xbox One')]",1995.0,None
+Ana,45.0,"('Juiz de Fora', 'None')",,1000e909,Barbosa,ana7n@mailservice.com,1979-06-11,"['ciclismo', 'fotografia']","['C++', 'PHP', 'Ruby', 'Go', 'C#']","[('Overwatch', 'PC'), ('Apex Legends', 'PC'), ('Minecraft', 'PC')]",1979.0,None
