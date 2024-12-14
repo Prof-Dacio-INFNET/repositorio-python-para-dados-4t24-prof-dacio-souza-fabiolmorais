@@ -1,0 +1,4 @@
+Nome,Idade,Localização,Amigos,Id,Sobrenome,Email,Data de Nascimento,Hobbies,Linguagem de Programação,Jogos Favoritos,ano_nascimento,Estado
+Beatriz,23.0,"('Manaus', 'AM')",,105a1585,Almeida Souza Santos,beatrizoo@fastmail.com,2001-10-21,"['futebol', 'viagem']","['Go', 'Kotlin', 'C#', 'Python']","[('Apex Legends', 'PC'), ('Fortnite', 'PlayStation 4'), ('Cyberpunk 2077', 'PC')]",2001.0,AM
+Guilherme,39.0,"('Manaus', 'AM')",,0d149de4,Lima Souza Rocha,guilhermela@inbox.org,1985-06-26,"['música', 'viagem', 'leitura']","['Kotlin', 'Swift', 'PHP', 'Go']","[('Valorant', 'PC')]",1985.0,AM
+Rafael,31.0,"('Manaus', 'AM')",,96560ded,Moraes,rafaell2@inbox.org,1993-07-19,"['natação', 'cozinhar']","['Kotlin', 'Go', 'Swift']","[('Cyberpunk 2077', 'PC'), ('Among Us', 'Mobile')]",1993.0,AM

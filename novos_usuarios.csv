@@ -1,0 +1,167 @@
+,Nome,Idade,Localização,Amigos,Id,Sobrenome,Email,Data de Nascimento,Hobbies,Linguagem de Programação,Jogos Favoritos,ano_nascimento
+0,Fabio Morais,25.0,"('Caruaru', 'Pernambuco')",Vini,7dpfqefk,Não Informado,,,,,,1999.0
+1,Cintia Silva,25.0,"('Caruaru', 'Pernambuco')",Nenhum,z9rfufzt,Não Informado,,,,,,1999.0
+2,Maria do Socorro,50.0,"('Serra Talhada', 'Pernambuco')",Nenhum,cu53ikl7,Não Informado,,,,,,1974.0
+3,Irineu Morais,55.0,"('Serra Talhada', 'Pernambuco')",Nenhum,socptls0,Não Informado,,,,,,1969.0
+4,Mayara Morais,29.0,"('Caruaru', 'Pernambuco')",Nenhum,cjxz017q,Não Informado,,,,,,1995.0
+5,João,25.0,"('Rio de Janeiro', 'RJ')","['Ana', 'Carlos', 'Marcos']",eti0f46q,Não Informado,,,,,,1999.0
+6,Ana,22.0,"('São Paulo', 'SP')","['João', 'Fernanda']",1u172vil,Não Informado,,,,,,2002.0
+7,Carlos,30.0,"('Belo Horizonte', 'MG')","['João', 'Marcos', 'Caio']",m2lxm6f4,Não Informado,,,,,,1994.0
+8,Fernanda,28.0,"('Curitiba', 'PR')",Ana,gb0emrc4,Não Informado,,,,,,1996.0
+9,Marcos,27.0,"('Porto Alegre', 'RS')","['João', 'Carlos']",70ii0fzf,Não Informado,,,,,,1997.0
+10,Clara,26.0,"('Brasília', 'DF')","['Fernanda', 'Lívia']",91kky2cf,Não Informado,,,,,,1998.0
+11,Lívia,24.0,"('São Paulo', 'SP')","['Clara', 'Lucas', 'Marcos']",3c16nau5,Não Informado,,,,,,2000.0
+12,Lucas,31.0,"('Salvador', 'BA')","['Lívia', 'Fernando']",vv37ss6y,Não Informado,,,,,,1993.0
+13,Fernando,29.0,"('Fortaleza', 'CE')","['Lucas', 'Aline']",ohj8ojk9,Não Informado,,,,,,1995.0
+14,Aline,23.0,"('Florianópolis', 'SC')","['Fernando', 'Caio', 'Clara']",laynklmt,Não Informado,,,,,,2001.0
+15,Caio,27.0,"('Curitiba', 'PR')","['Aline', 'Clara']",fugcq2b0,Não Informado,,,,,,1997.0
+16,Sofia,21.0,"('Campinas', 'SP')","['Rafaela', 'Fernanda']",fcc8xa38,Não Informado,,,,,,2003.0
+17,Rafaela,22.0,"('Recife', 'PE')","['Sofia', 'Clara']",4e7712yz,Não Informado,,,,,,2002.0
+18,Mateus,32.0,"('Rio de Janeiro', 'RJ')","['Caio', 'Fernando', 'João']",2x3p8v2l,Não Informado,,,,,,1992.0
+19,Tiago,28.0,"('Brasília', 'DF')","['Mateus', 'Lívia', 'Aline']",0b8dk766,Não Informado,,,,,,1996.0
+20,Juliana,25.0,"('São Paulo', 'SP')","['Rafaela', 'Sofia', 'Marcos']",20a8ua3e,Não Informado,,,,,,1999.0
+21,Pedro,26.0,"('Belo Horizonte', 'MG')","['João', 'Aline']",3e5h4ajn,Não Informado,,,,,,1998.0
+22,Amanda,24.0,"('Porto Alegre', 'RS')","['Pedro', 'Caio', 'Lívia']",9yh348h4,Não Informado,,,,,,2000.0
+23,Bruno,30.0,"('Cuiabá', 'MT')","['Ana', 'Marcos', 'Mateus']",fax3dqkz,Não Informado,,,,,,1994.0
+24,Carla,29.0,"('Salvador', 'BA')","['Fernando', 'Tiago', 'Lucas']",my4u7hst,Não Informado,,,,,,1995.0
+25,Gabriela,27.0,"('Fortaleza', 'CE')","['Carla', 'Aline', 'Rafaela']",f7p4pcea,Não Informado,,,,,,1997.0
+26,Thiago,31.0,"('São Paulo', 'SP')","['João', 'Amanda', 'Lucas', 'Clara']",nfazdfm3,Não Informado,,,,,,1993.0
+27,Renata,23.0,"('Curitiba', 'PR')","['Clara', 'Fernando', 'Sofia']",t2gttytv,Não Informado,,,,,,2001.0
+28,Leonardo,29.0,"('Campinas', 'SP')","['Renata', 'Mateus', 'Caio']",q2qetbxr,Não Informado,,,,,,1995.0
+29,Camila,28.0,"('Niterói', 'RJ')","['Juliana', 'Bruno', 'Lucas', 'Caio']",93gr2i3k,Não Informado,,,,,,1996.0
+30,Felipe,27.0,"('Brasília', 'DF')","['Renata', 'Carla']",0f2pf6v0,Não Informado,,,,,,1997.0
+31,Mariana,30.0,"('Porto Alegre', 'RS')","['Felipe', 'Lívia', 'Fernando']",97c3r6es,Não Informado,,,,,,1994.0
+32,Daniel,25.0,"('Rio de Janeiro', 'RJ')","['Camila', 'Paulo', 'Amanda']",i8dn2nus,Não Informado,,,,,,1999.0
+33,Fabio Morais,25.0,"('Caruaru', 'Pernambuco')",Vini,laajd7xu,Não Informado,,,,,,1999.0
+34,Cintia Silva,25.0,"('Caruaru', 'Pernambuco')",Nenhum,0cin8zq1,Não Informado,,,,,,1999.0
+35,Maria do Socorro,50.0,"('Serra Talhada', 'Pernambuco')",Nenhum,rmjp4t9m,Não Informado,,,,,,1974.0
+36,Irineu Morais,55.0,"('Serra Talhada', 'Pernambuco')",Nenhum,u3v94hd7,Não Informado,,,,,,1969.0
+37,Mayara Morais,29.0,"('Caruaru', 'Pernambuco')",Nenhum,rbduph41,Não Informado,,,,,,1995.0
+38,Jairo Silva,56.0,"('', None)",Nenhum,2qa0fs28,Não Informado,,,,,,1968.0
+39,Matheus,36.0,"('Fortaleza', 'CE')",,a7d3a358,Costa Ribeiro,matheus4@webmail.net,1988-09-22,"['leitura', 'cozinhar', 'música', 'cinema', 'pintura']","['Go', 'PHP', 'Ruby', 'Java', 'Python']","[('Overwatch', 'PC')]",1988.0
+40,Camila,20.0,"('Porto Alegre', 'RS')",,e439f93f,Ribeiro Dias,camilaee@freemail.com,2004-10-22,"['cinema', 'futebol', 'natação']","['PHP', 'Kotlin', 'C#', 'Go', 'Java']","[('Apex Legends', 'PC'), ('Minecraft', 'PC')]",2004.0
+41,Larissa,20.0,"('Petropolis', 'RJ')",,3f27c71e,Moraes Barbosa,larissakx@webmail.net,2004-09-04,"['leitura', 'fotografia', 'ciclismo']","['C#', 'C++', 'Ruby', 'JavaScript']","[('GTA V', 'PlayStation 4'), ('Cyberpunk 2077', 'PC'), ('Valorant', 'PC')]",2004.0
+42,Fernanda,19.0,"('Campinas', 'SP')",,fdcd788f,Gomes,fernanda29h@inbox.org,"Dec 10, 1999","['fotografia', 'cozinhar', 'futebol']",[],"[('GTA V', 'PlayStation 4'), ('Valorant', 'PC'), ('Fortnite', 'PlayStation 4'), ('Minecraft', 'PC'), ('The Witcher 3', 'Xbox One')]",2005.0
+43,Camila,25.0,"('Brasília', 'DF')",,89d761b6,Carvalho Dias Ribeiro,camilac1@freemail.com,1999-07-08,"['cinema', 'ciclismo']","['JavaScript', 'Go', 'Java']","[('Minecraft', 'PC'), ('Among Us', 'Mobile'), ('Valorant', 'PC'), ('The Witcher 3', 'Xbox One')]",1999.0
+44,Camila,29.0,"('Salvador', 'BA')",,a758d57e,Martins Fernandes Oliveira,,1994-12-21,"['leitura', 'pintura', 'viagem']","['Ruby', 'PHP']","[('GTA V', 'PlayStation 4')]",1995.0
+45,Luís,26.0,"('Campinas', 'SP')",,9042cede,Costa Fernandes,luísy8x@mailservice.com,1998-08-18,"['natação', 'viagem', 'cinema', 'ciclismo', 'cozinhar']","['PHP', 'Java', 'Python']","[('The Witcher 3', 'Xbox One'), ('GTA V', 'PlayStation 4'), ('League of Legends', 'PC'), ('Apex Legends', 'PC'), ('Minecraft', 'PC')]",1998.0
+46,Bruno,18.0,"('Belo Horizonte', 'MG')",,ae994746,Barbosa Souza,bruno0@freemail.com,2006-01-01,"['viagem', 'cinema', 'futebol']","['Swift', 'C#', 'Go', 'Kotlin', 'PHP']","[('Overwatch', 'PC'), ('GTA V', 'PlayStation 4'), ('The Witcher 3', 'Xbox One'), ('Minecraft', 'PC')]",2006.0
+47,Ana,41.0,"('São Paulo', 'ZZ')",,0592809f,Rodrigues,anav9i@inbox.org,1983-06-16,"['pintura', 'fotografia']","['Python', 'Java', 'PHP', 'Kotlin', 'Swift']","[('Valorant', 'PC'), ('Overwatch', 'PC')]",1983.0
+48,Rafael,30.0,"('Porto Alegre', 'RS')",,88588439,Oliveira,rafaelau0@freemail.com,1993-11-07,[],['Java'],"[('Fortnite', 'PlayStation 4'), ('Cyberpunk 2077', 'PC')]",1994.0
+49,Mariana,,"('Brasília', 'DF')",,ed4fdaad,Rocha Oliveira Dias,mariana07@example.com,1992-09-06,[],"['C#', 'Java', 'Go']","[('GTA V', 'PlayStation 4')]",
+50,Sofia,46.0,"('Juiz de Fora', 'MG')",,c34e2389,Araújo Carvalho Rodrigues,sofia6@example.com,1978-04-09,"['viagem', 'pintura']",[],[],1978.0
+51,Camila,45.0,"('Recife', 'PE')",,1c2874a4,Santos,camila6oo@inbox.org,05/03/81,"['ciclismo', 'pintura', 'natação', 'música', 'cinema']","['Java', 'Kotlin', 'C++', 'Ruby', 'Python']","[('Cyberpunk 2077', 'PC'), ('League of Legends', 'PC')]",1979.0
+52,Larissa,19.0,"('Salvador', 'BA')",,24d56155,Oliveira Souza Carvalho,larissali@inbox.org,2005-05-12,"['futebol', 'cozinhar', 'pintura']","['JavaScript', 'Python', 'Swift']","[('Cyberpunk 2077', 'PC'), ('Overwatch', 'PC')]",2005.0
+53,Julia,22.0,"('Recife', 'PE')",,3e7e4ad8,Pereira Santos Almeida,julia5b8@freemail.com,2002-10-13,"['ciclismo', 'pintura', 'cozinhar', 'música', 'fotografia']",[],"[('GTA V', 'PlayStation 4')]",2002.0
+54,Beatriz,47.0,"('Volta Redonda', 'RJ')",,ecaf8829,Souza Carvalho Moraes,beatriz13@fastmail.com,1977-03-20,[],"['JavaScript', 'Swift', 'Go', 'Java']","[('Apex Legends', 'PC')]",1977.0
+55,Rafael,42.0,"('Salvador', 'BA')",,37925a69,Martins Ribeiro Moraes,,1982-05-26,"['leitura', 'fotografia', 'pintura', 'natação', 'música']","['JavaScript', 'Ruby']","[('Cyberpunk 2077', 'PC'), ('The Witcher 3', 'Xbox One'), ('Among Us', 'Mobile')]",1982.0
+56,Pedro,,"('Belo Horizonte', 'MG')",,0f18226f,Silva,pedrog@webmail.net,1984-04-26,['leitura'],"['Python', 'C++', 'Ruby', 'C#', 'Swift']",[],
+57,Beatriz,45.0,"('Brasília', 'DF')",,a9376f01,Dias Ribeiro Lima,,1979-04-04,"['natação', 'cozinhar', 'fotografia', 'pintura']",[],[],1979.0
+58,Larissa,36.0,"('Juiz de Fora', 'MG')",,aaa1efc2,Almeida Rodrigues,larissah1@randommail.com,1988-06-06,['fotografia'],"['Python', 'C++', 'Java', 'Go']","[('The Witcher 3', 'Xbox One'), ('Among Us', 'Mobile')]",1988.0
+59,Rafael,42.0,"('Recife', 'PE')",,8752082c,Oliveira Souza Santos,rafaelav@inbox.org,1982-09-26,"['futebol', 'música', 'pintura', 'cinema']","['Go', 'Kotlin', 'Ruby']","[('GTA V', 'PlayStation 4')]",1982.0
+60,Luís,38.0,"('Rio de Janeiro', 'RJ')",,a7e8504f,Oliveira,luís8@inbox.org,1986-07-21,['leitura'],"['C++', 'Java', 'C#', 'Ruby']","[('The Witcher 3', 'Xbox One'), ('GTA V', 'PlayStation 4')]",1986.0
+61,Pedro,31.0,"('Juiz de Fora', 'MG')",,7ba461b8,Carvalho Araújo,pedrog@mailservice.com,1993-03-22,"['futebol', 'fotografia', 'natação', 'leitura', 'cozinhar']","['Kotlin', 'Java', 'Swift', 'Ruby', 'Go']","[('Fortnite', 'PlayStation 4')]",1993.0
+62,Larissa,41.0,"('Curitiba', 'PR')",,4685d079,Correia Martins,larissa8@mailservice.com,1983-03-07,[],['Kotlin'],"[('League of Legends', 'PC'), ('The Witcher 3', 'Xbox One'), ('Overwatch', 'PC')]",1983.0
+63,Ana,41.0,"('Rio de Janeiro', 'RJ')",,e8155af8,Barbosa Araújo,anazq@randommail.com,1982-11-06,[],"['Python', 'Kotlin', 'Swift', 'C++', 'PHP']","[('Apex Legends', 'PC'), ('The Witcher 3', 'Xbox One'), ('Minecraft', 'PC')]",1983.0
+64,Luís,44.0,"('Salvador', 'BA')",,12017cea,Dias Souza Barbosa,luís3j@randommail.com,1980-08-22,[],['PHP'],[],1980.0
+65,Bruno,43.0,"('Campinas', 'SP')",,a7c04195,Pereira,bruno8@randommail.com,1981-04-14,"['música', 'cozinhar', 'cinema']","['Swift', 'Python', 'Ruby', 'Go', 'Java']","[('Cyberpunk 2077', 'PC'), ('Among Us', 'Mobile'), ('Valorant', 'PC'), ('Overwatch', 'PC'), ('League of Legends', 'PC')]",1981.0
+66,Fernanda,29.0,"('Juiz de Fora', 'MG')",,bef7ca70,Correia,fernandac@example.com,,[],"['Python', 'C#', 'PHP', 'JavaScript']","[('Minecraft', 'PC'), ('Overwatch', 'PC'), ('Valorant', 'PC'), ('Cyberpunk 2077', 'PC'), ('GTA V', 'PlayStation 4')]",1995.0
+67,Lucas,45.0,"('São Paulo', 'SP')",,0050be84,Souza Almeida,lucas5@randommail.com,1979-08-03,"['música', 'viagem', 'cinema', 'natação', 'fotografia']","['C#', 'C++']","[('Cyberpunk 2077', 'PC'), ('Valorant', 'PC'), ('League of Legends', 'PC'), ('GTA V', 'PlayStation 4'), ('Overwatch', 'PC')]",1979.0
+68,João,44.0,"('Volta Redonda', 'RJ')",,e34f880c,Araújo Silva,joãow@inbox.org,1980-04-11,"['viagem', 'pintura', 'natação', 'futebol']","['Ruby', 'Swift', 'PHP', 'Python', 'Kotlin']","[('The Witcher 3', 'Xbox One'), ('Valorant', 'PC')]",1980.0
+69,Pedro,48.0,"('Rio de Janeiro', 'RJ')",,c85033d0,Ribeiro,pedroi@freemail.com,1976-04-19,['ciclismo'],"['Go', 'JavaScript', 'PHP', 'Swift']",[],1976.0
+70,Pedro,40.0,"('Petropolis', 'RJ')",,f644292d,Araújo Dias Gomes,pedroh@example.com,1984-07-10,[],"['PHP', 'Ruby', 'Java', 'JavaScript']",[],1984.0
+71,Ana,45.0,"('Juiz de Fora', 'None')",,1000e909,Barbosa,ana7n@mailservice.com,1979-06-11,"['ciclismo', 'fotografia']","['C++', 'PHP', 'Ruby', 'Go', 'C#']","[('Overwatch', 'PC'), ('Apex Legends', 'PC'), ('Minecraft', 'PC')]",1979.0
+72,Rafael,27.0,"('São Paulo', 'SP')",,00705400,Carvalho,rafaelpc4@freemail.com,1997-01-06,['pintura'],['PHP'],"[('The Witcher 3', 'Xbox One'), ('Overwatch', 'PC')]",1997.0
+73,Larissa,33.0,"('Juiz de Fora', 'MG')",,aae18988,Gomes Moraes,larissawvv@fastmail.com,1991-03-11,"['ciclismo', 'natação', 'música', 'cinema', 'viagem']",[],"[('GTA V', 'PlayStation 4'), ('League of Legends', 'PC'), ('Apex Legends', 'PC'), ('Valorant', 'PC'), ('Cyberpunk 2077', 'PC')]",1991.0
+74,Luís,,"('Recife', 'PE')",,8284af6b,Almeida Gomes Ribeiro,luísl4@fastmail.com,1980-12-27,['pintura'],"['Python', 'Java']","[('Fortnite', 'PlayStation 4')]",
+75,Pedro,20.0,"('Juiz de Fora', 'MG')",,73f40cb3,Souza Oliveira,pedrosq@fastmail.com,2003-11-12,"['música', 'natação', 'ciclismo']","['Go', 'PHP']","[('Fortnite', 'PlayStation 4'), ('Overwatch', 'PC'), ('Among Us', 'Mobile'), ('Valorant', 'PC'), ('The Witcher 3', 'Xbox One')]",2004.0
+76,Lucas,25.0,"('São Paulo', 'SP')",,94eccf56,Carvalho Santos Fernandes,lucas8qn@example.com,1999-09-04,['música'],"['Swift', 'PHP', 'JavaScript']","[('Among Us', 'Mobile'), ('League of Legends', 'PC'), ('The Witcher 3', 'Xbox One'), ('Overwatch', 'PC')]",1999.0
+77,Rafael,22.0,"('Juiz de Fora', 'MG')",,da14ae70,Ribeiro Moraes,rafaelkk@mailservice.com,2002-01-24,[],"['Ruby', 'PHP', 'Python', 'Kotlin']","[('Fortnite', 'PlayStation 4')]",2002.0
+78,Guilherme,,"('Fortaleza', 'CE')",,e36265d7,Rocha,guilherme1@inbox.org,1993-05-14,['pintura'],"['JavaScript', 'C++']","[('Cyberpunk 2077', 'PC'), ('The Witcher 3', 'Xbox One'), ('Minecraft', 'PC'), ('Valorant', 'PC'), ('Fortnite', 'PlayStation 4')]",
+79,Pedro,18.0,"('Campinas', 'SP')",,addf7b94,Almeida,pedro9@randommail.com,2006-05-04,"['música', 'cozinhar', 'fotografia', 'viagem', 'natação']","['C#', 'JavaScript', 'PHP']",[],2006.0
+80,Ana,32.0,"('Salvador', 'BA')",,464738a1,Carvalho Moraes,anaro5@fastmail.com,2024-07-22,['cozinhar'],"['Ruby', 'PHP', 'C++']","[('Apex Legends', 'PC')]",1992.0
+81,Ana,20.0,"('Volta Redonda', 'RJ')",,2771ad9f,Dias,anak2@fastmail.com,31/02/2000,['fotografia'],['C#'],"[('GTA V', 'PlayStation 4'), ('Among Us', 'Mobile'), ('Apex Legends', 'PC'), ('Valorant', 'PC')]",2004.0
+82,Matheus,19.0,"('Fortaleza', 'CE')",,14a5e91a,Silva,matheusz1@inbox.org,2004-12-23,"['pintura', 'leitura', 'futebol']",['Python'],[],2005.0
+83,Luís,21.0,"('Petropolis', 'RJ')",,5504d3f7,Barbosa Rocha Gomes,luísy7r@mailservice.com,2003-03-20,"['futebol', 'fotografia', 'música', 'leitura']",['Ruby'],"[('Fortnite', 'PlayStation 4'), ('Apex Legends', 'PC'), ('Overwatch', 'PC')]",2003.0
+84,Carlos,48.0,"('São Paulo', 'None')",,22ec0237,Rocha,carlosc@randommail.com,1976-09-03,"['viagem', 'leitura', 'ciclismo']","['Python', 'Kotlin', 'C++', 'Ruby']","[('League of Legends', 'PC'), ('The Witcher 3', 'Xbox One')]",1976.0
+85,Pedro,,"('Juiz de Fora', 'MG')",,addf7b94,Lima Dias,maria.santos@,2003-03-16,"['pintura', 'fotografia', 'futebol', 'cinema', 'leitura']",['C#'],"[('Overwatch', 'PC'), ('GTA V', 'PlayStation 4'), ('Among Us', 'Mobile')]",
+86,Rafael,37.0,"('Brasília', 'DF')",,2a5a7599,Gomes,rafaelfwk@webmail.net,1987-08-19,"['cinema', 'viagem', 'leitura', 'cozinhar', 'ciclismo']","['Ruby', 'Java', 'C#']","[('Apex Legends', 'PC'), ('GTA V', 'PlayStation 4'), ('Fortnite', 'PlayStation 4'), ('Valorant', 'PC')]",1987.0
+87,Larissa,30.0,"('Petropolis', 'RJ')",,8bca4c2f,Pereira Carvalho,larissaq@example.com,1994-10-04,['pintura'],[],"[('Fortnite', 'PlayStation 4'), ('League of Legends', 'PC'), ('The Witcher 3', 'Xbox One')]",1994.0
+88,Lucas,30.0,"('São Paulo', 'SP')",,b7a070b0,Dias Martins Lima,lucaso0p@freemail.com,1994-05-21,"['viagem', 'leitura', 'cozinhar', 'futebol']","['C#', 'Go', 'Java']",[],1994.0
+89,Julia,44.0,"('Volta Redonda', 'RJ')",,6667eca4,Costa Carvalho Lima,juliar@mailservice.com,1980-04-23,[],"['JavaScript', 'Go', 'PHP', 'C++', 'Ruby']","[('Valorant', 'PC'), ('League of Legends', 'PC'), ('Apex Legends', 'PC')]",1980.0
+90,João,24.0,"('Fortaleza', 'CE')",,b07dcc18,Rodrigues Araújo,joãon@webmail.net,2000-01-17,"['pintura', 'música', 'cinema', 'cozinhar', 'viagem']","['JavaScript', 'Go', 'Kotlin']","[('Valorant', 'PC')]",2000.0
+91,Camila,,"('Fortaleza', 'CE')",,13b9a570,Silva Carvalho,camilar@inbox.org,1984-11-21,"['pintura', 'música', 'cozinhar', 'fotografia', 'natação']","['Swift', 'PHP', 'Python']","[('Overwatch', 'PC'), ('GTA V', 'PlayStation 4'), ('Apex Legends', 'PC')]",
+92,Beatriz,31.0,"('Porto Alegre', 'RS')",,1991bdf1,Araújo Souza,beatriz00q@inbox.org,1993-06-01,"['fotografia', 'viagem', 'cozinhar', 'natação', 'leitura']","['Ruby', 'Go', 'JavaScript', 'Java', 'PHP']","[('Among Us', 'Mobile'), ('Valorant', 'PC'), ('Overwatch', 'PC')]",1993.0
+93,Carlos,26.0,"('Porto Alegre', 'RS')",,a39d2340,Ribeiro Rocha Rodrigues,carlosvik@fastmail.com,1997-11-03,"['viagem', 'fotografia', 'ciclismo', 'cozinhar', 'pintura']",[],"[('Among Us', 'Mobile'), ('Overwatch', 'PC'), ('Fortnite', 'PlayStation 4')]",1998.0
+94,Luís,30.0,"('São Paulo', 'SP')",,0c6a9216,Ribeiro Lima Rodrigues,luísu@mailservice.com,1993-11-14,"['leitura', 'ciclismo', 'futebol', 'fotografia']","['C#', 'PHP', 'Go', 'Python', 'JavaScript']","[('Apex Legends', 'PC'), ('Valorant', 'PC')]",1994.0
+95,Camila,32.0,"('Brasília', 'DF')",,5526070b,Souza,camilawce@webmail.net,1992-09-14,"['cozinhar', 'pintura']","['C++', 'Ruby', 'Kotlin', 'Java', 'JavaScript']","[('Fortnite', 'PlayStation 4'), ('The Witcher 3', 'Xbox One'), ('Valorant', 'PC'), ('Overwatch', 'PC')]",1992.0
+96,Beatriz,23.0,"('Manaus', 'AM')",,105a1585,Almeida Souza Santos,beatrizoo@fastmail.com,2001-10-21,"['futebol', 'viagem']","['Go', 'Kotlin', 'C#', 'Python']","[('Apex Legends', 'PC'), ('Fortnite', 'PlayStation 4'), ('Cyberpunk 2077', 'PC')]",2001.0
+97,Camila,24.0,"('Campinas', 'SP')",,52f3cc71,Pereira Martins Rodrigues,camila9x@mailservice.com,2000-01-06,[],"['JavaScript', 'Kotlin', 'PHP', 'Python']","[('Among Us', 'Mobile'), ('Fortnite', 'PlayStation 4'), ('Minecraft', 'PC'), ('League of Legends', 'PC'), ('Overwatch', 'PC')]",2000.0
+98,Luís,45.0,"('São Paulo', 'SP')",,2844aa20,Carvalho Fernandes Pereira,luís2fk@webmail.net,1979-09-02,[],"['Go', 'C#']",[],1979.0
+99,Matheus,32.0,"('Curitiba', 'PR')",,723a6950,Fernandes,matheus4@randommail.com,1991-12-11,"['leitura', 'natação']","['Swift', 'Java']",[],1992.0
+100,Larissa,47.0,"('Porto Alegre', 'RS')",,26a53093,Santos Ribeiro,larissarnl@randommail.com,1977-08-05,"['ciclismo', 'cozinhar']","['PHP', 'JavaScript', 'C++', 'Python']","[('Overwatch', 'PC'), ('Fortnite', 'PlayStation 4')]",1977.0
+101,Camila,32.0,"('Porto Alegre', 'RS')",,03b7736a,Oliveira Costa Moraes,camilaphh@fastmail.com,1992-03-06,"['futebol', 'música', 'natação']",[],"[('Among Us', 'Mobile'), ('Minecraft', 'PC'), ('Fortnite', 'PlayStation 4')]",1992.0
+102,Bruno,,"('Curitiba', 'PR')",,bb8d846d,Correia Costa,bruno53@fastmail.com,2003-08-11,"['cinema', 'leitura']",['JavaScript'],"[('League of Legends', 'PC'), ('The Witcher 3', 'Xbox One'), ('Fortnite', 'PlayStation 4'), ('Minecraft', 'PC')]",
+103,Pedro,,"('Brasília', 'DF')",,ce987d08,Araújo Costa,,1995-12-16,"['ciclismo', 'cinema']","['JavaScript', 'PHP', 'Swift']","[('Fortnite', 'PlayStation 4')]",
+104,Carlos,27.0,"('São Paulo', 'SP')",,c3288a3e,Santos Gomes,carlosaa2@randommail.com,1997-05-17,"['cozinhar', 'pintura']",[],"[('League of Legends', 'PC'), ('Apex Legends', 'PC'), ('Cyberpunk 2077', 'PC')]",1997.0
+105,Mariana,37.0,"('Fortaleza', 'CE')",,cc8a0b52,Araújo,marianafyu@mailservice.com,1987-04-21,['natação'],"['Swift', 'Ruby', 'C++']","[('GTA V', 'PlayStation 4'), ('Cyberpunk 2077', 'PC')]",1987.0
+106,Pedro,39.0,"('Porto Alegre', 'RS')",,97fa29e9,Silva,pedroy4@mailservice.com,1985-04-12,"['cinema', 'pintura', 'futebol', 'cozinhar']","['Swift', 'Python']","[('The Witcher 3', 'Xbox One')]",1985.0
+107,Larissa,29.0,"('Porto Alegre', 'RS')",,de90a03f,Costa,larissaosc@example.com,1994-12-22,['ciclismo'],"['Swift', 'Go', 'PHP']","[('GTA V', 'PlayStation 4'), ('Minecraft', 'PC'), ('The Witcher 3', 'Xbox One'), ('League of Legends', 'PC'), ('Cyberpunk 2077', 'PC')]",1995.0
+108,Julia,44.0,"('Fortaleza', 'CE')",,869236b7,Martins,juliaxmw@inbox.org,1980-02-20,"['cinema', 'música', 'cozinhar']",['Java'],"[('The Witcher 3', 'Xbox One'), ('Valorant', 'PC'), ('Apex Legends', 'PC')]",1980.0
+109,Guilherme,44.0,"('None', 'None')",,2bfa3d18,Costa Dias,guilhermeoj@inbox.org,1980-06-21,[],"['Swift', 'Java', 'JavaScript', 'Ruby', 'PHP']","[('Apex Legends', 'PC'), ('Cyberpunk 2077', 'PC'), ('Overwatch', 'PC')]",1980.0
+110,Mariana,,"('Juiz de Fora', 'MG')",,826258f9,Ribeiro,mariana5@randommail.com,2000-06-04,[],['C++'],"[('Overwatch', 'PC'), ('Minecraft', 'PC'), ('Cyberpunk 2077', 'PC'), ('GTA V', 'PlayStation 4'), ('Fortnite', 'PlayStation 4')]",
+111,Ana,34.0,"('Juiz de Fora', 'MG')",,32d0dc4b,Martins Silva,ana6wz@fastmail.com,1990-10-02,"['futebol', 'música', 'fotografia', 'natação', 'leitura']","['Java', 'Python', 'Kotlin', 'JavaScript', 'PHP']","[('Fortnite', 'PlayStation 4'), ('The Witcher 3', 'Xbox One')]",1990.0
+112,Maria,19.0,"('Rio de Janeiro', 'RJ')",,bb2d93e4,Fernandes Correia Ribeiro,pedro.oliveiraexample.com,2005-03-28,"['fotografia', 'ciclismo', 'natação']","['Ruby', 'PHP']","[('Minecraft', 'PC'), ('Valorant', 'PC'), ('Among Us', 'Mobile'), ('The Witcher 3', 'Xbox One'), ('Cyberpunk 2077', 'PC')]",2005.0
+113,Carlos,22.0,"('Campinas', 'SP')",,4894e523,Rocha Martins Souza,carlos4@mailservice.com,2002-08-09,[],['Go'],"[('The Witcher 3', 'Xbox One')]",2002.0
+114,Carla,48.0,"('Petropolis', 'RJ')",,b993299f,Rodrigues,carla3k@webmail.net,1976-06-09,['cozinhar'],"['JavaScript', 'Swift', 'Java']","[('GTA V', 'PlayStation 4'), ('The Witcher 3', 'Xbox One'), ('Overwatch', 'PC'), ('Among Us', 'Mobile')]",1976.0
+115,Beatriz,45.0,"('Curitiba', 'PR')",,176f60dc,Almeida Lima Costa,beatrizpc@freemail.com,1979-03-23,[],"['Go', 'Swift', 'Ruby', 'C#', 'PHP']","[('Cyberpunk 2077', 'PC'), ('Overwatch', 'PC'), ('Apex Legends', 'PC')]",1979.0
+116,Guilherme,33.0,"('Rio de Janeiro', 'None')",,e743f4c4,Moraes Souza Santos,guilherme84d@webmail.net,1991-03-25,[],"['C#', 'Java', 'Python']","[('GTA V', 'PlayStation 4'), ('Apex Legends', 'PC'), ('Overwatch', 'PC'), ('Among Us', 'Mobile')]",1991.0
+117,Matheus,26.0,"('Petropolis', 'RJ')",,1e672365,Correia Carvalho,matheus6u@webmail.net,1998-10-21,"['natação', 'cinema', 'cozinhar', 'ciclismo']","['Java', 'JavaScript', 'C#']","[('League of Legends', 'PC'), ('GTA V', 'PlayStation 4'), ('Apex Legends', 'PC'), ('The Witcher 3', 'Xbox One')]",1998.0
+118,Rafael,38.0,"('Belo Horizonte', 'MG')",,e0c03323,Oliveira Araújo Dias,rafaelbm1@webmail.net,1985-12-01,"['cozinhar', 'ciclismo', 'cinema', 'fotografia', 'música']","['C#', 'Ruby']","[('Overwatch', 'PC'), ('GTA V', 'PlayStation 4'), ('Fortnite', 'PlayStation 4'), ('Minecraft', 'PC')]",1986.0
+119,Ana,35.0,"('São Paulo', 'SP')",,44be4413,Rocha Carvalho Correia,anauuy@inbox.org,1989-04-27,[],"['Kotlin', 'Ruby']","[('League of Legends', 'PC'), ('GTA V', 'PlayStation 4'), ('Overwatch', 'PC'), ('Minecraft', 'PC'), ('The Witcher 3', 'Xbox One')]",1989.0
+120,Fernanda,41.0,"('Rio de Janeiro', 'RJ')",,1ab3c982,Lima Costa,fernanda8zw@randommail.com,1983-06-14,"['cinema', 'ciclismo', 'pintura']","['Ruby', 'C#', 'Python', 'C++', 'Kotlin']","[('Apex Legends', 'PC')]",1983.0
+121,Ana,48.0,"('Rio de Janeiro', 'RJ')",,308598c4,Moraes Souza Rocha,anad@webmail.net,1976-08-19,"['cinema', 'fotografia', 'natação', 'viagem', 'pintura']","['Swift', 'Kotlin']","[('GTA V', 'PlayStation 4'), ('Fortnite', 'PlayStation 4')]",1976.0
+122,Carla,20.0,"('Fortaleza', 'CE')",,0a5e1000,Souza,carlafa8@webmail.net,2004-03-04,[],"['Go', 'C++', 'Kotlin', 'Java', 'Python']","[('Minecraft', 'PC')]",2004.0
+123,Lucas,28.0,"('Curitiba', 'PR')",,dd699dbf,Fernandes Santos,lucasf@webmail.net,1996-03-26,"['cinema', 'fotografia']","['Python', 'Kotlin', 'Go', 'JavaScript']","[('Among Us', 'Mobile')]",1996.0
+124,Guilherme,42.0,"('Campinas', 'SP')",,f01ab056,Oliveira Barbosa,guilhermea3@fastmail.com,1981-11-13,['cinema'],"['Go', 'Java', 'Swift', 'C++']",[],1982.0
+125,Julia,36.0,"('Brasília', 'DF')",,a909c919,Carvalho Fernandes Martins,juliae@inbox.org,1988-05-02,[],['Java'],"[('Minecraft', 'PC')]",1988.0
+126,Julia,47.0,"('São Paulo', 'SP')",,1052a137,Almeida Lima Carvalho,juliagwf@fastmail.com,1976-12-21,"['fotografia', 'música', 'futebol']",[],"[('Fortnite', 'PlayStation 4'), ('The Witcher 3', 'Xbox One')]",1977.0
+127,Sofia,,"('Rio de Janeiro', 'RJ')",,3612fbfa,Correia Barbosa Pereira,sofiajb@fastmail.com,1981-03-06,"['cinema', 'futebol', 'fotografia']",['Python'],[],
+128,Luís,31.0,"('Porto Alegre', 'RS')",,45cb04d7,Pereira,luísh@inbox.org,20.06.1996,[],"['Python', 'PHP', 'Kotlin', 'Go', 'Ruby']","[('League of Legends', 'PC'), ('GTA V', 'PlayStation 4'), ('Valorant', 'PC'), ('Fortnite', 'PlayStation 4'), ('Apex Legends', 'PC')]",1993.0
+129,Ana,40.0,"('Petropolis', 'RJ')",,14ca89e8,Rodrigues Gomes,anahi7@webmail.net,1984-08-23,"['viagem', 'futebol', 'leitura', 'natação']","['Go', 'C#', 'Java', 'Swift']","[('Apex Legends', 'PC'), ('Overwatch', 'PC'), ('Valorant', 'PC')]",1984.0
+130,Bruno,28.0,"('Curitiba', 'PR')",,f734c476,Ribeiro Rocha Almeida,brunobsz@randommail.com,1996-03-05,"['cozinhar', 'viagem', 'leitura']","['Kotlin', 'PHP', 'Java', 'C++']","[('GTA V', 'PlayStation 4'), ('Fortnite', 'PlayStation 4'), ('Overwatch', 'PC'), ('Apex Legends', 'PC'), ('Valorant', 'PC')]",1996.0
+131,Bruno,40.0,"('Curitiba', 'PR')",,a84e18cc,Dias,bruno11@freemail.com,1984-05-05,['viagem'],"['Go', 'Java', 'C#', 'JavaScript', 'Ruby']","[('Fortnite', 'PlayStation 4'), ('Cyberpunk 2077', 'PC'), ('Among Us', 'Mobile'), ('GTA V', 'PlayStation 4')]",1984.0
+132,Guilherme,39.0,"('Manaus', 'AM')",,0d149de4,Lima Souza Rocha,guilhermela@inbox.org,1985-06-26,"['música', 'viagem', 'leitura']","['Kotlin', 'Swift', 'PHP', 'Go']","[('Valorant', 'PC')]",1985.0
+133,Fernanda,34.0,"('Volta Redonda', 'RJ')",,e03e7966,Ribeiro,fernanda9s5@example.com,1990-05-14,"['cozinhar', 'viagem', 'pintura']","['Python', 'Swift']","[('Apex Legends', 'PC'), ('Valorant', 'PC')]",1990.0
+134,Rafael,31.0,"('Manaus', 'AM')",,96560ded,Moraes,rafaell2@inbox.org,1993-07-19,"['natação', 'cozinhar']","['Kotlin', 'Go', 'Swift']","[('Cyberpunk 2077', 'PC'), ('Among Us', 'Mobile')]",1993.0
+135,Maria,23.0,"('Petropolis', 'RJ')",,82067087,Silva,mariaee5@inbox.org,2001-03-06,"['pintura', 'ciclismo']",[],"[('Valorant', 'PC'), ('Among Us', 'Mobile'), ('Overwatch', 'PC')]",2001.0
+136,Julia,44.0,"('Rio de Janeiro', 'RJ')",,64b5bccc,Rocha Almeida,juliakm8@webmail.net,1980-01-03,"['ciclismo', 'música', 'futebol']","['C++', 'Kotlin', 'PHP', 'Swift', 'C#']","[('League of Legends', 'PC'), ('Overwatch', 'PC'), ('Apex Legends', 'PC'), ('Cyberpunk 2077', 'PC'), ('Among Us', 'Mobile')]",1980.0
+137,Rafael,44.0,"('Salvador', 'BA')",,be552028,Lima Oliveira Barbosa,rafael0@mailservice.com,1980-04-19,"['leitura', 'natação', 'viagem', 'música']","['JavaScript', 'Java', 'PHP', 'C#', 'C++']","[('Minecraft', 'PC'), ('Fortnite', 'PlayStation 4'), ('Among Us', 'Mobile')]",1980.0
+138,Beatriz,20.0,"('Juiz de Fora', 'MG')",,defa6aa6,Costa Lima Correia,beatrizd@webmail.net,2004-03-24,"['cinema', 'viagem', 'futebol', 'música', 'ciclismo']","['Go', 'Python']","[('GTA V', 'PlayStation 4'), ('Valorant', 'PC')]",2004.0
+139,Carlos,36.0,"('Rio de Janeiro', 'RJ')",,b391669a,Rodrigues Pereira,carlosea@webmail.net,1988-03-02,"['música', 'viagem']",[],[],1988.0
+140,Beatriz,26.0,"('Juiz de Fora', 'MG')",,72a698c4,Costa Fernandes Martins,beatriz7u@inbox.org,,"['natação', 'fotografia', 'música', 'futebol']",['PHP'],"[('Fortnite', 'PlayStation 4'), ('Overwatch', 'PC')]",1998.0
+141,Maria,22.0,"('Petropolis', 'RJ')",,bfbb4de8,Dias Lima Araújo,mariasv@inbox.org,2002-09-28,"['natação', 'futebol', 'ciclismo', 'viagem']",[],"[('Overwatch', 'PC'), ('Fortnite', 'PlayStation 4')]",2002.0
+142,Lucas,41.0,"('Campinas', 'SP')",,e839133b,Rocha Gomes Correia,lucas1x@mailservice.com,,"['futebol', 'fotografia']","['Kotlin', 'JavaScript']",[],1983.0
+143,Fernanda,23.0,"('Belo Horizonte', 'MG')",,c3818351,Costa Ribeiro,fernanda1@mailservice.com,2001-07-23,[],"['Java', 'Python']","[('Overwatch', 'PC')]",2001.0
+144,Ana,29.0,"('Petropolis', 'RJ')",,d3409ac4,Carvalho,anal7p@randommail.com,1995-01-25,"['pintura', 'cinema', 'música', 'futebol', 'leitura']","['JavaScript', 'Swift', 'C#', 'Go']","[('Minecraft', 'PC')]",1995.0
+145,Mariana,45.0,"('Belo Horizonte', 'MG')",,41936061,Souza Martins,mariana6@inbox.org,1978-11-21,"['música', 'ciclismo']","['Python', 'Ruby', 'C#', 'Swift']","[('GTA V', 'PlayStation 4')]",1979.0
+146,Camila,38.0,"('Manaus', 'None')",,22aecc6b,Gomes Dias Moraes,camilabh@fastmail.com,1986-07-05,"['ciclismo', 'leitura', 'cozinhar']","['Java', 'Ruby']","[('The Witcher 3', 'Xbox One')]",1986.0
+147,Larissa,30.0,"('Petropolis', 'RJ')",,16ac75ba,Oliveira Ribeiro Silva,larissawkq@fastmail.com,1993-12-04,['viagem'],"['C++', 'Java', 'C#', 'JavaScript']","[('Among Us', 'Mobile')]",1994.0
+148,Carla,44.0,"('Curitiba', 'PR')",,be43ff75,Araújo Santos Dias,carla8@randommail.com,1979-11-08,['música'],[],"[('Valorant', 'PC'), ('Cyberpunk 2077', 'PC'), ('GTA V', 'PlayStation 4'), ('Fortnite', 'PlayStation 4')]",1980.0
+149,Mariana,29.0,"('Petropolis', 'RJ')",,50ec8818,Rocha Barbosa,mariana0@fastmail.com,1995-01-28,"['leitura', 'viagem', 'cinema']","['Go', 'C++', 'Ruby']",[],1995.0
+150,Guilherme,36.0,"('Recife', 'PE')",,315c291f,Pereira Barbosa Souza,guilherme5e@webmail.net,1988-06-13,"['música', 'cinema', 'cozinhar', 'natação']",['Swift'],"[('The Witcher 3', 'Xbox One'), ('Overwatch', 'PC'), ('Fortnite', 'PlayStation 4'), ('Among Us', 'Mobile')]",1988.0
+151,João,28.0,"('Juiz de Fora', 'MG')",,9f446547,Silva Almeida Correia,joãoy@inbox.org,1996-03-25,['fotografia'],"['Swift', 'Kotlin', 'C#', 'Java']","[('Apex Legends', 'PC')]",1996.0
+152,Bruno,47.0,"('Brasília', 'DF')",,c8799bd4,Silva Dias Rocha,brunoe@randommail.com,1976-12-25,"['cinema', 'natação', 'cozinhar', 'fotografia']","['JavaScript', 'Go', 'Ruby']",[],1977.0
+153,Ana,45.0,"('Recife', 'PE')",,04b146fc,Moraes Pereira Ribeiro,anaat@example.com,1978-11-09,['viagem'],[],"[('Overwatch', 'PC'), ('Valorant', 'PC'), ('GTA V', 'PlayStation 4')]",1979.0
+154,Guilherme,41.0,"('None', 'None')",,7043c6b1,Dias Fernandes,guilhermecl@fastmail.com,1983-03-19,"['fotografia', 'natação', 'música', 'viagem']","['Python', 'Kotlin', 'PHP', 'C++', 'Swift']","[('Overwatch', 'PC')]",1983.0
+155,Carla,33.0,"('Juiz de Fora', 'MG')",,e3f891ab,Ribeiro Moraes,carlam@inbox.org,1991-06-02,"['fotografia', 'futebol', 'música']","['Python', 'Swift', 'JavaScript']","[('Among Us', 'Mobile'), ('League of Legends', 'PC')]",1991.0
+156,Mariana,31.0,"('Belo Horizonte', 'MG')",,8bcc1628,Costa,marianasch@freemail.com,1993-01-05,['leitura'],[],"[('League of Legends', 'PC')]",1993.0
+157,Lucas,33.0,"('São Paulo', 'SP')",,df928c7b,Moraes Almeida,lucasn@webmail.net,1991-06-10,[],['C#'],[],1991.0
+158,Beatriz,27.0,"('Salvador', 'BA')",,04cbcc69,Souza Pereira,beatrizg0j@freemail.com,,"['cinema', 'ciclismo', 'pintura']","['C++', 'PHP', 'Ruby']","[('Cyberpunk 2077', 'PC')]",1997.0
+159,Mariana,29.0,"('Rio de Janeiro', 'RJ')",,969c7acc,Almeida Silva,mariana0@mail.com,1995-11-22,"['música','viagem']","['Java','C#']","[('The Witcher 3','Xbox One')]",1995.0
+160,Mariana,29.0,"('Rio de Janeiro', 'RJ')",,ca4fc87a,Almeida Silva,joaogmail.com,1995-11-22,"['música','viagem']","['Java','C#']","[('The Witcher 3','Xbox One')]",1995.0
+161,Mariana,,"('Rio de Janeiro', 'RJ')",,08e9f228,Almeida Silva,mariana2@mail.com,1995-11-22,"['música','viagem']","['Java','C#']","[('The Witcher 3','Xbox One')]",
+162,Larissa,,"('Porto Alegre', 'RS')",,26a53093,Santos Ribeiro,larissarnl@randommail.com,1977-08-05,"['ciclismo', 'cozinhar']","['PHP', 'JavaScript', 'C++', 'Python']","[('Overwatch', 'PC'), ('Fortnite', 'PlayStation 4')]",
+163,Luís,43.0,"('Recife', 'PE')",,8284af6b,Almeida Gomes Ribeiro,luísl4@fastmail.com,1980-12-27,['pintura'],"['Python', 'Java']","[('Fortnite', 'PlayStation 4')]",1981.0
+164,Mariana,29.0,"('None', 'None')",,ca4fc87a,Almeida Silva,mariana1@mail.com,1995-11-22,"['música','viagem']","['Java','C#']","[('The Witcher 3','Xbox One')]",1995.0
+165,Ana,45.0,"('Juiz de Fora', 'None')",,1000e909,Barbosa,ana7n@mailservice.com,1979-06-11,"['ciclismo', 'fotografia']","['C++', 'PHP', 'Ruby', 'Go', 'C#']","[('Overwatch', 'PC'), ('Apex Legends', 'PC'), ('Minecraft', 'PC')]",1979.0

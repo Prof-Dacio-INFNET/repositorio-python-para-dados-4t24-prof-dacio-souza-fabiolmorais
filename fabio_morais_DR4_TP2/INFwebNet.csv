@@ -1,0 +1,40 @@
+Nome,Idade,Localização,Amigos
+Fabio Morais,25,"('Caruaru', 'Pernambuco')",Vini
+Cintia Silva,25,"('Caruaru', 'Pernambuco')",Nenhum
+Maria do Socorro,50,"('Serra Talhada', 'Pernambuco')",Nenhum
+Irineu Morais,55,"('Serra Talhada', 'Pernambuco')",Nenhum
+Mayara Morais,29,"('Caruaru', 'Pernambuco')",Nenhum
+João,25,"('Rio de Janeiro', 'RJ')","['Ana', 'Carlos', 'Marcos']"
+Ana,22,"('São Paulo', 'SP')","['João', 'Fernanda']"
+Carlos,30,"('Belo Horizonte', 'MG')","['João', 'Marcos', 'Caio']"
+Fernanda,28,"('Curitiba', 'PR')",Ana
+Marcos,27,"('Porto Alegre', 'RS')","['João', 'Carlos']"
+Clara,26,"('Brasília', 'DF')","['Fernanda', 'Lívia']"
+Lívia,24,"('São Paulo', 'SP')","['Clara', 'Lucas', 'Marcos']"
+Lucas,31,"('Salvador', 'BA')","['Lívia', 'Fernando']"
+Fernando,29,"('Fortaleza', 'CE')","['Lucas', 'Aline']"
+Aline,23,"('Florianópolis', 'SC')","['Fernando', 'Caio', 'Clara']"
+Caio,27,"('Curitiba', 'PR')","['Aline', 'Clara']"
+Sofia,21,"('Campinas', 'SP')","['Rafaela', 'Fernanda']"
+Rafaela,22,"('Recife', 'PE')","['Sofia', 'Clara']"
+Mateus,32,"('Rio de Janeiro', 'RJ')","['Caio', 'Fernando', 'João']"
+Tiago,28,"('Brasília', 'DF')","['Mateus', 'Lívia', 'Aline']"
+Juliana,25,"('São Paulo', 'SP')","['Rafaela', 'Sofia', 'Marcos']"
+Pedro,26,"('Belo Horizonte', 'MG')","['João', 'Aline']"
+Amanda,24,"('Porto Alegre', 'RS')","['Pedro', 'Caio', 'Lívia']"
+Bruno,30,"('Cuiabá', 'MT')","['Ana', 'Marcos', 'Mateus']"
+Carla,29,"('Salvador', 'BA')","['Fernando', 'Tiago', 'Lucas']"
+Gabriela,27,"('Fortaleza', 'CE')","['Carla', 'Aline', 'Rafaela']"
+Thiago,31,"('São Paulo', 'SP')","['João', 'Amanda', 'Lucas', 'Clara']"
+Renata,23,"('Curitiba', 'PR')","['Clara', 'Fernando', 'Sofia']"
+Leonardo,29,"('Campinas', 'SP')","['Renata', 'Mateus', 'Caio']"
+Camila,28,"('Niterói', 'RJ')","['Juliana', 'Bruno', 'Lucas', 'Caio']"
+Felipe,27,"('Brasília', 'DF')","['Renata', 'Carla']"
+Mariana,30,"('Porto Alegre', 'RS')","['Felipe', 'Lívia', 'Fernando']"
+Daniel,25,"('Rio de Janeiro', 'RJ')","['Camila', 'Paulo', 'Amanda']"
+Fabio Morais,25,"('Caruaru', 'Pernambuco')",Vini
+Cintia Silva,25,"('Caruaru', 'Pernambuco')",Nenhum
+Maria do Socorro,50,"('Serra Talhada', 'Pernambuco')",Nenhum
+Irineu Morais,55,"('Serra Talhada', 'Pernambuco')",Nenhum
+Mayara Morais,29,"('Caruaru', 'Pernambuco')",Nenhum
+Jairo Silva,56,"('', None)",Nenhum

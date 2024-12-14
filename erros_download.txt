@@ -1,0 +1,2 @@
+Plataforma: Mobile - HTTPError: 404 - Not Found
+Plataforma: PC - HTTPError: 404 - Not Found

@@ -1,0 +1,11 @@
+Nome,Idade,Localização,Amigos,Id,Sobrenome,Email,Data de Nascimento,Hobbies,Linguagem de Programação,Jogos Favoritos,ano_nascimento,Estado
+Fernando,29.0,"('Fortaleza', 'CE')","['Lucas', 'Aline']",ohj8ojk9,Não Informado,,,,,,1995.0,CE
+Gabriela,27.0,"('Fortaleza', 'CE')","['Carla', 'Aline', 'Rafaela']",f7p4pcea,Não Informado,,,,,,1997.0,CE
+Matheus,36.0,"('Fortaleza', 'CE')",,a7d3a358,Costa Ribeiro,matheus4@webmail.net,1988-09-22,"['leitura', 'cozinhar', 'música', 'cinema', 'pintura']","['Go', 'PHP', 'Ruby', 'Java', 'Python']","[('Overwatch', 'PC')]",1988.0,CE
+Guilherme,,"('Fortaleza', 'CE')",,e36265d7,Rocha,guilherme1@inbox.org,1993-05-14,['pintura'],"['JavaScript', 'C++']","[('Cyberpunk 2077', 'PC'), ('The Witcher 3', 'Xbox One'), ('Minecraft', 'PC'), ('Valorant', 'PC'), ('Fortnite', 'PlayStation 4')]",,CE
+Matheus,19.0,"('Fortaleza', 'CE')",,14a5e91a,Silva,matheusz1@inbox.org,2004-12-23,"['pintura', 'leitura', 'futebol']",['Python'],[],2005.0,CE
+João,24.0,"('Fortaleza', 'CE')",,b07dcc18,Rodrigues Araújo,joãon@webmail.net,2000-01-17,"['pintura', 'música', 'cinema', 'cozinhar', 'viagem']","['JavaScript', 'Go', 'Kotlin']","[('Valorant', 'PC')]",2000.0,CE
+Camila,,"('Fortaleza', 'CE')",,13b9a570,Silva Carvalho,camilar@inbox.org,1984-11-21,"['pintura', 'música', 'cozinhar', 'fotografia', 'natação']","['Swift', 'PHP', 'Python']","[('Overwatch', 'PC'), ('GTA V', 'PlayStation 4'), ('Apex Legends', 'PC')]",,CE
+Mariana,37.0,"('Fortaleza', 'CE')",,cc8a0b52,Araújo,marianafyu@mailservice.com,1987-04-21,['natação'],"['Swift', 'Ruby', 'C++']","[('GTA V', 'PlayStation 4'), ('Cyberpunk 2077', 'PC')]",1987.0,CE
+Julia,44.0,"('Fortaleza', 'CE')",,869236b7,Martins,juliaxmw@inbox.org,1980-02-20,"['cinema', 'música', 'cozinhar']",['Java'],"[('The Witcher 3', 'Xbox One'), ('Valorant', 'PC'), ('Apex Legends', 'PC')]",1980.0,CE
+Carla,20.0,"('Fortaleza', 'CE')",,0a5e1000,Souza,carlafa8@webmail.net,2004-03-04,[],"['Go', 'C++', 'Kotlin', 'Java', 'Python']","[('Minecraft', 'PC')]",2004.0,CE

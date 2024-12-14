@@ -1,0 +1,2 @@
+Erro ao parsear o arquivoErro ao parsear o arquivo ['plataforma_PlayStation_4.html', 'plataforma_Xbox_One.html'] - expected str, bytes or os.PathLike object, not list
+Erro ao parsear o arquivo ['plataforma_PlayStation_4.html', 'plataforma_Xbox_One.html'] - expected str, bytes or os.PathLike object, not list
