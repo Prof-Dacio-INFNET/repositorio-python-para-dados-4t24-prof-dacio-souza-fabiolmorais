@@ -6,6 +6,8 @@ import os
 import re
 import json
 from typing import List, Dict
+from sqlalchemy import create_engine
+import sqlite3
 
 
 def carregar_dados():
@@ -127,7 +129,7 @@ def carregar_plataformas():
 
 #   return caminhos
 
-
+# 5 questão
 def baixar_paginas_wikipedia(plataformas):
   """Faz o download das páginas da wikipédia de cada plataforma e salva em arquivos HTML, conforme pede o enunciado.
 
@@ -297,11 +299,193 @@ def exportar_dados_jogos(dados_jogos):
     print(f"Erro ao exportar o arquivo JSON: {e}")
 
 def associar_jogos_usuarios(df_usuarios: pd.DataFrame, dados_jogos: List[Dict]) -> pd.DataFrame:
+  """Associa os jogos aos usuários
 
+  Args:
+      df_usuarios (pd.DataFrame): DataFrame com os dados dos usuários
+      dados_jogos (List[Dict]): Lista de dicionários com jogos extraidos
 
+  Returns:
+      pd.DataFrame: DataFrame atualizado com as associações
+  """
+
+  associacoes = []
+
+  jogos_por_plataforma = {}
   for plataforma in dados_jogos:
-    for jogo in plataforma["jogo"]:
-      print(jogo)
+    for jogo in plataforma["dados"]:
+      nome_jogo = jogo.get("Título", "").strip().lower()
+
+  for _, usuario in df_usuarios.iterrows():
+    jogos_usuario = usuario.get("Jogos Favoritos", [])
+    try:
+      if isinstance(jogos_usuario, str):
+        jogos_usuario = eval(jogos_usuario)
+    except (ValueError, SyntaxError):
+      jogos_usuario = []
+      with open("erros_associacao.txt", "a", encoding="utf-8") as log_erros:
+        log_erros.write(f"Dado inválido para o usuário {usuario['Nome']}: {jogos_usuario}\n")
+
+    associacao_usuario = []
+    for item in jogos_usuario:
+      if isinstance(item, (tuple, list)) and len(item) == 2:
+        jogo, plataforma = item
+        nome_jogo_normalizado = jogo.strip().lower()
+        plataforma_associada = jogos_por_plataforma.get(nome_jogo_normalizado, "Não Encontrado")
+        associacao_usuario.append({"jogo": jogo, "plataforma": plataforma_associada})
+      else:
+        with open("erros_associacao.txt", "a", encoding="utf-8") as erros:
+          erros.write(f"Item inválido para o usuário {usuario['Nome']}: {item}\n")
+
+    associacoes.append(associacao_usuario)
+
+  df_usuarios["Associações Jogos"] = associacoes
+
+  return df_usuarios
+
+def atualizar_banco_dados(df_usuarios_atualizados):
+  """Atualzia o bd adicionando a tabela conforme pede o enunciado da questão
+
+  Args:
+      df_usuarios_atualizados (DataFrame): DataFrame que contém todos os dados dos usuarios atualizados.
+  """
+
+  df = pd.DataFrame(df_usuarios_atualizados)
+
+  for coluna in ["Nome", "Idade", "Localização", "Amigos", "Id", "Sobrenome", "Email", "Data de Nascimento", "Hobbies", "Linguagem de Programação", "Jogos Favoritos", "ano_nascimento", "Associações Jogos"]:
+    df[coluna] = df[coluna].apply(json.dumps)
+
+  try:
+
+    engine = create_engine('sqlite:///INFwebNET_DB.db')
+
+    df.to_sql("Jogos_Plataformas", con=engine, if_exists="replace", index=False)
+
+    print("Tabela criada com sucesso!")
+
+  except Exception as e:
+    print(f"ERROR: Erro ao tentar criar a tabela: {e}")
+
+def consultar_usuarios_por_jogo():
+  """Consulta os usuarios por jogo passado pelo o input
+
+  Args:
+      None.
+  """
+
+  nome_jogo = input("Digite o nome do jogo para realizar a busca: ").strip()
+
+  try:
+    conn = sqlite3.connect("INFwebNET_DB.db")
+    cursor = conn.cursor()
+
+    query = """
+      SELECT nome, `Jogos Favoritos`
+      FROM Jogos_Plataformas
+    """
+    cursor.execute(query)
+    resultados = cursor.fetchall()
+
+    usuarios_encontrados = []
+    for nome, jogos_favoritos in resultados:
+      jogos_favoritos = eval(jogos_favoritos)
+      jogos_lista = []
+      jogos_lista.append(jogos_favoritos)
+
+      if any(nome_jogo.lower() in jogo.lower() for jogo in jogos_lista):
+        usuarios_encontrados.append(nome)
+
+    if usuarios_encontrados:
+      print(f"Usuários que jogam {nome_jogo}:")
+      for nome in usuarios_encontrados:
+        print(f"- {nome}")
+
+    else:
+      print("Nenhum usuário encontrado.")
+
+  except sqlite3.Error as e:
+    print(f"Erro ao acessar o banco: {e}")
+
+  finally:
+    if conn:
+      conn.close()
+
+def plataforma_mais_popular():
+
+  try:
+    conn = sqlite3.connect("INFwebNET_DB.db")
+    cursor = conn.cursor()
+
+    query = """
+      SELECT `Jogos Favoritos`
+      FROM Jogos_Plataformas
+    """
+    cursor.execute(query)
+    resultados = cursor.fetchall()
+
+    contador_pc = 0
+    contador_xbox_one = 0
+    contador_playstation = 0
+    contador_mobile = 0
+    contador = {}
+
+    for resultado in resultados:
+      lista_resulado = list(resultado)
+
+      for re in lista_resulado:
+        if "PC" in re:
+          contador_pc += 1
+
+        if "Xbox One" in re:
+          contador_xbox_one += 1
+
+        if "PlayStation 4" in re:
+          contador_playstation += 1
+
+        if "Mobile" in re:
+          contador_mobile += 1
+        
+    contador["PC"] = contador_pc    
+    contador["Xbox One"] = contador_xbox_one    
+    contador["PlayStation 4"] = contador_playstation    
+    contador["Mobile"] = contador_mobile    
+
+    plataforma_mais_popular = max(contador, key=contador.get)
+
+    print(f'A plataforma mais popular é: {plataforma_mais_popular} com {contador[plataforma_mais_popular]} usuários.')
+
+  
+  except sqlite3.Error as e:
+    print(f"Erro ao acessar o banco: {e}")
+
+  finally:
+    if conn:
+      conn.close()
+
+def salvar_dados_completos(df_usuarios_atualizados: pd.DataFrame):
+
+  usuarios_completos = []
+
+  for _, usuario in df_usuarios_atualizados.iterrows():
+    usuario_dados = {
+      "Nome": usuario.get("Nome", "Não Informado"),
+      "Idade": usuario.get("Idade", "Não Informado"),
+      "Localização": usuario.get("Localização", "Não Informado"),
+      "Amigos": usuario.get("Amigos", "Não Informado"),
+      "Id": usuario.get("Id", "Não Informado"),
+      "Sobrenome": usuario.get("Sobrenome", "Não Informado"),
+      "Email": usuario.get("Email", "Não Informado"),
+      "Data de Nascimento": usuario.get("Data de Nascimento", "Não Informado"),
+      "Hobbies": usuario.get("Hobbies", "Não Informado"),
+      "Linguagem de Programação": usuario.get("Linguagem de Programação", "Não Informado"),
+      "Jogos": usuario.get("Associações Jogos", [])
+    }
+
+    usuarios_completos.append(usuario_dados)
+
+  with open("INFwebNET_Completo.json", "w", encoding="utf-8") as json_file:
+    json.dump(usuarios_completos, json_file, ensure_ascii=False, indent=4)
+
 
 
 if __name__ == "__main__":
@@ -329,8 +513,22 @@ if __name__ == "__main__":
     dados_formatados = exportar_dados_jogos(dados_jogos)
     print("Dados exportados com sucesso!")
 
-    associar_jogos_usuarios(dados, dados_formatados)
+    df_usuarios_atualizados = associar_jogos_usuarios(dados, dados_jogos)
     print("Dados associados com sucesso!")
+
+    atualizar_banco_dados(df_usuarios_atualizados)
+    print("Dados associados com sucesso!")
+
+    consultar_usuarios_por_jogo()
+    print("Consulta realizada com sucesso!")
+
+    plataforma_mais_popular()
+    print("Consulta realizada com sucesso!")
+
+    salvar_dados_completos(df_usuarios_atualizados)
+    print("Dados salvos com sucesso!")
+
+    
 
   except Exception as e:
     print(f"ERROR: {e}")
